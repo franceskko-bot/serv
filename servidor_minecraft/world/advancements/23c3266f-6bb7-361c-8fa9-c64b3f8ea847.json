@@ -7,10 +7,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-02-16 20:59:27 +0000",
+      "minecraft:dark_forest": "2025-02-16 20:59:46 +0000",
       "minecraft:forest": "2025-02-16 02:24:38 +0000",
+      "minecraft:mangrove_swamp": "2025-02-16 20:57:11 +0000",
+      "minecraft:sparse_jungle": "2025-02-16 20:57:10 +0000",
       "minecraft:river": "2025-02-16 02:58:31 +0000",
+      "minecraft:birch_forest": "2025-02-16 20:59:47 +0000",
       "minecraft:windswept_hills": "2025-02-16 02:26:01 +0000",
       "minecraft:dripstone_caves": "2025-02-16 03:15:43 +0000",
+      "minecraft:windswept_savanna": "2025-02-16 20:58:37 +0000",
       "minecraft:plains": "2025-02-16 02:16:31 +0000"
     },
     "done": false
@@ -2079,9 +2085,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-02-16 21:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-02-16 20:59:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2025-02-16 20:39:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-02-16 20:59:27 +0000"
     },
     "done": true
   },
