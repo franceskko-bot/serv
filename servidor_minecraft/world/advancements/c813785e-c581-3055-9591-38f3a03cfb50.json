@@ -630,6 +630,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-02-16 03:00:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-02-16 02:26:59 +0000"
@@ -681,6 +687,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-02-16 02:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-02-16 02:58:25 +0000"
     },
     "done": true
   },
@@ -987,7 +999,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_mutton": "2025-02-16 02:23:58 +0000"
+      "cooked_mutton": "2025-02-16 02:23:58 +0000",
+      "cooked_beef": "2025-02-16 03:03:56 +0000"
     },
     "done": false
   },
