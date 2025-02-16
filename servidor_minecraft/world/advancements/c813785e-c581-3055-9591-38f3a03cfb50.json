@@ -972,6 +972,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-16 20:08:41 +0000",
       "minecraft:skeleton": "2025-02-16 02:47:42 +0000",
       "minecraft:spider": "2025-02-16 03:11:51 +0000",
       "minecraft:zombie": "2025-02-16 02:47:12 +0000",
@@ -1752,6 +1753,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2025-02-16 19:56:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-02-16 20:08:44 +0000"
     },
     "done": true
   },
