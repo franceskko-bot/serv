@@ -1,5 +1,5 @@
-[02:16:16] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[02:16:16] [main/INFO]: Loading 77 mods:
+[19:35:17] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[19:35:17] [main/INFO]: Loading 77 mods:
 	- architectury 13.0.8
 	- balm-fabric 21.0.27
 	   \-- kuma_api 21.0.5-SNAPSHOT
@@ -90,313 +90,60 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[02:16:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:16:16] [main/INFO]: Compatibility level set to JAVA_16
-[02:16:16] [main/INFO]: Compatibility level set to JAVA_17
-[02:16:16] [main/INFO]: Compatibility level set to JAVA_21
-[02:16:16] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[02:16:17] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[02:16:17] [main/INFO]: Applying Nashorn fix
-[02:16:17] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[02:16:17] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[02:16:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:16:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[02:16:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[02:16:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[02:16:20] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[02:16:23] [main/INFO]: Vanilla bootstrap took 4940 milliseconds
-[02:16:23] [main/INFO]: Loading Collective version 7.91.
-[02:16:24] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[02:16:24] [main/INFO]: Loading Noisium.
-[02:16:24] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[02:16:24] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[02:16:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:16:26] [main/INFO]: Loaded 1337 recipes
-[02:16:26] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
-[02:16:26] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_ominous_make_fall, nova_structures:phantom_boss_make_fall]
-[02:16:26] [main/INFO]: Loaded 1449 advancements
-[02:16:26] [main/INFO]: Reloading grave shape (server)
-[02:16:26] [main/INFO]: Grave model and shape reload successful (server)
-[02:16:26] [main/INFO]: Reloading YIGD graveyard data (server)
-[02:16:26] [main/INFO]: Graveyard data successfully reloaded (server)
-[02:16:26] [main/INFO]: Reloading YIGD grave area overrides (server)
-[02:16:26] [main/INFO]: Grave area overrides successfully reloaded (server)
-[02:16:26] [main/INFO]: Applied 66 biome modifications to 63 of 64 new biomes in 11.68 ms
-[02:16:26] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:16:26] [Server thread/INFO]: Loading properties
-[02:16:26] [Server thread/INFO]: Default game type: SURVIVAL
-[02:16:26] [Server thread/INFO]: Generating keypair
-[02:16:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:16:26] [Server thread/INFO]: Using epoll channel type
-[02:16:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:16:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:16:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:16:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:16:26] [Server thread/INFO]: Preparing level "world"
-[02:16:27] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[02:16:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:16:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:16:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:16:28] [Server thread/INFO]: Time elapsed: 755 ms
-[02:16:28] [Server thread/INFO]: Done (1.234s)! For help, type "help"
-[02:16:28] [Server thread/WARN]: Dedicated server took 12.766 seconds to load
-[02:16:30] [Server thread/INFO]: KaraVit[/100.109.49.4:59941] logged in with entity id 105 at (1.5, 63.0, 4.5)
-[02:16:30] [Server thread/INFO]: KaraVit joined the game
-[02:16:31] [Server thread/INFO]: Priority overwritten for player KaraVit. Claiming: GRAVE / Robbing: INVENTORY
-[02:16:35] [Server thread/INFO]: Franceskko[/100.96.204.97:56484] logged in with entity id 290 at (19.43535534847749, 65.0, 11.70517987887536)
-[02:16:35] [Server thread/INFO]: Franceskko joined the game
-[02:16:35] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
-[02:16:43] [Server thread/INFO]: [Not Secure] <KaraVit> rre lag
-[02:16:52] [Server thread/INFO]: [Not Secure] <Franceskko> ajio
-[02:16:57] [Server thread/INFO]: [Not Secure] <KaraVit> wait
-[02:16:58] [Server thread/INFO]: [Not Secure] <KaraVit> ay vengoi
-[02:20:22] [Server thread/INFO]: [Not Secure] <KaraVit> tryhardeaba
-[02:20:46] [Server thread/INFO]: Made Franceskko a server operator
-[02:20:56] [Server thread/INFO]: [Franceskko: Set the time to 1000]
-[02:20:57] [Server thread/INFO]: [Not Secure] <KaraVit> che
-[02:21:01] [Server thread/INFO]: [Not Secure] <KaraVit> y que mods para tener encuenta pusister
-[02:21:17] [Server thread/INFO]: [Not Secure] <Franceskko> y
-[02:21:20] [Server thread/INFO]: [Not Secure] <Franceskko> ninguno goty
-[02:21:39] [Server thread/INFO]: [Not Secure] <KaraVit> ni el artifacts
-[02:21:40] [Server thread/INFO]: [Not Secure] <KaraVit> :o
-[02:21:45] [Server thread/INFO]: KaraVit has made the advancement [Stone Age]
-[02:21:46] [Server thread/INFO]: Franceskko has made the advancement [Stone Age]
-[02:21:52] [Server thread/INFO]: [Not Secure] <Franceskko> :(
-[02:22:04] [Server thread/INFO]: Franceskko has made the advancement [Getting an Upgrade]
-[02:22:08] [Server thread/INFO]: KaraVit has made the advancement [Getting an Upgrade]
-[02:22:19] [Server thread/INFO]: [Not Secure] <Franceskko> che
-[02:22:24] [Server thread/INFO]: [Not Secure] <Franceskko> y santi se fue a pajear
-[02:22:30] [Server thread/INFO]: [Not Secure] <KaraVit> asi pagece
-[02:22:35] [Server thread/INFO]: [Not Secure] <KaraVit> No durmio siesta
-[02:22:37] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[02:22:37] [Server thread/INFO]: [Not Secure] <KaraVit> si jugamos l4d2
-[02:23:10] [Server thread/INFO]: [Not Secure] <Franceskko> che
-[02:23:11] [Server thread/INFO]: [Not Secure] <KaraVit> a yadecia yo que iba bien de temps
-[02:23:14] [Server thread/INFO]: [Not Secure] <KaraVit> tenia 100 fps limit
-[02:23:14] [Server thread/INFO]: [Not Secure] <Franceskko> sera mi wifi el lag
-[02:23:22] [Server thread/INFO]: [Not Secure] <KaraVit> y nose
-[02:23:24] [Server thread/INFO]: [Not Secure] <KaraVit> ami me va bien
-[02:23:44] [Server thread/INFO]: [Not Secure] <Franceskko> y bruh
-[02:23:49] [Server thread/INFO]: [Not Secure] <Franceskko> tenes las 5 linitas
-[02:23:57] [Server thread/INFO]: [Not Secure] <KaraVit> jiju
-[02:26:46] [Server thread/INFO]: KaraVit has made the advancement [Acquire Hardware]
-[02:26:57] [Server thread/INFO]: [Not Secure] <Franceskko> no es hierronico
-[02:26:59] [Server thread/INFO]: Franceskko has made the advancement [Acquire Hardware]
-[02:27:03] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[02:27:30] [Server thread/INFO]: Franceskko has made the advancement [Isn't It Iron Pick]
-[02:28:12] [Server thread/INFO]: KaraVit has made the advancement [Monster Hunter]
-[02:29:28] [Server thread/INFO]: [Not Secure] <KaraVit> efe
-[02:29:37] [Server thread/INFO]: [Not Secure] <KaraVit> Me piro
-[02:29:41] [Server thread/INFO]: [Not Secure] <KaraVit> unos minutiko
-[02:29:44] [Server thread/INFO]: [Not Secure] <Franceskko> chetukii
-[02:29:50] [Server thread/INFO]: [Not Secure] <KaraVit> jiju
-[02:29:53] [Server thread/INFO]: [Not Secure] <KaraVit> Pero i come back
-[02:30:00] [Server thread/INFO]: [Not Secure] <Franceskko> *give minecraft:diamonds
-[02:30:05] [Server thread/INFO]: [Not Secure] <KaraVit> ¿
-[02:30:12] [Server thread/INFO]: [Not Secure] <Franceskko> ajio
-[02:30:21] [Server thread/INFO]: [Not Secure] <Franceskko> qlok
-[02:30:26] [Server thread/INFO]: [Not Secure] <Franceskko> ripea entonces
-[02:30:48] [Server thread/INFO]: [Franceskko: Set the time to 1000]
-[02:41:44] [Server thread/INFO]: Franceskko has made the advancement [Suit Up]
-[02:47:12] [Server thread/INFO]: Franceskko has made the advancement [Monster Hunter]
-[02:48:00] [Server thread/INFO]: Franceskko has made the advancement [Diamonds!]
-[02:53:48] [Server thread/INFO]: Franceskko has made the advancement [Not Today, Thank You]
-[02:54:48] [Server thread/INFO]: [Not Secure] <KaraVit> yy trihard
-[02:55:12] [Server thread/INFO]: [Not Secure] <Franceskko> yy
-[02:55:19] [Server thread/INFO]: [Not Secure] <Franceskko> te dejo volver al final
-[02:55:32] [Server thread/INFO]: [Not Secure] <KaraVit> obvio pa
-[02:55:36] [Server thread/INFO]: [Not Secure] <KaraVit> ya estas full diamond
-[02:56:11] [Server thread/INFO]: KaraVit has made the advancement [Not Today, Thank You]
-[02:56:27] [Server thread/INFO]: KaraVit has made the advancement [Suit Up]
-[02:56:30] [Server thread/INFO]: [Not Secure] <Franceskko> jijo
-[02:56:35] [Server thread/INFO]: KaraVit has made the advancement [Isn't It Iron Pick]
-[02:56:36] [Server thread/INFO]: [Not Secure] <Franceskko> me gigaforre en esta cueva
-[02:56:43] [Server thread/INFO]: [Not Secure] <Franceskko> 29 diamantes
-[02:56:47] [Server thread/INFO]: [Not Secure] <KaraVit> Bruuh
-[02:56:53] [Server thread/INFO]: [Not Secure] <KaraVit> en 20m
-[02:57:02] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[02:59:16] [Server thread/INFO]: KaraVit has made the advancement [Diamonds!]
-[02:59:27] [Server thread/INFO]: [Not Secure] <Franceskko> era rre tryhard
-[02:59:42] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[03:01:59] [Server thread/INFO]: [Not Secure] <Franceskko> la cueva del siglo
-[03:02:12] [Server thread/INFO]: [Not Secure] <KaraVit> y facts
-[03:03:10] [Server thread/INFO]: [Not Secure] <Franceskko> aa
-[03:03:10] [Server thread/INFO]: [Not Secure] <KaraVit> cheto
-[03:03:13] [Server thread/INFO]: [Not Secure] <KaraVit> se me quemaron 3 diamantes
-[03:03:17] [Server thread/INFO]: [Not Secure] <Franceskko> es imposible hacer water drop
-[03:03:28] [Server thread/INFO]: [Not Secure] <KaraVit> por el lag?
-[03:03:36] [Server thread/INFO]: [Not Secure] <Franceskko> y si
-[03:03:51] [Server thread/INFO]: [Not Secure] <Franceskko> casi ripeo
-[03:04:51] [Server thread/INFO]: [Not Secure] <Franceskko> yy cuantos
-[03:04:56] [Server thread/INFO]: KaraVit has made the advancement [Cover Me with Diamonds]
-[03:05:08] [Server thread/INFO]: [Not Secure] <KaraVit> 19
-[03:05:28] [Server thread/INFO]: [Not Secure] <KaraVit> aunque efe
-[03:05:29] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[03:05:32] [Server thread/INFO]: [Not Secure] <KaraVit> a pura carne podrida estoy
-[03:07:24] [Server thread/INFO]: [Not Secure] <Franceskko> che es increble esta cueva
-[03:07:49] [Server thread/INFO]: [Not Secure] <KaraVit> y bastante op
-[03:08:09] [Server thread/INFO]: [Not Secure] <KaraVit> che no veo nada en las cuevas igual
-[03:08:10] [Server thread/INFO]: [Not Secure] <KaraVit> y vos
-[03:08:16] [Server thread/INFO]: [Not Secure] <Franceskko> yo si
-[03:08:24] [Server thread/INFO]: [Not Secure] <Franceskko> si tengo los complementarygod pa
-[03:08:28] [Server thread/INFO]: [Not Secure] <KaraVit> x2
-[03:08:58] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[03:10:34] [Server thread/INFO]: [Not Secure] <Franceskko> 55
-[03:10:38] [Server thread/INFO]: [Not Secure] <KaraVit> bruh
-[03:10:44] [Server thread/INFO]: [Not Secure] <KaraVit> Y no te armai
-[03:10:57] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[03:11:02] [Server thread/INFO]: [Not Secure] <Franceskko> si estoy de hierro ya
-[03:11:07] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[03:11:21] [Server thread/INFO]: [Not Secure] <KaraVit> era tan tryhard que no necesitaba la armor de diamante
-[03:11:36] [Server thread/INFO]: [Not Secure] <Franceskko> vos?
-[03:13:04] [Server thread/INFO]: [Not Secure] <KaraVit> a te encontre
-[03:15:21] [Server thread/INFO]: [Not Secure] <Franceskko> teni carbon
-[03:15:21] [Server thread/INFO]: [Not Secure] <KaraVit> wenooo
-[03:15:22] [Server thread/INFO]: [Not Secure] <KaraVit> a salig
-[03:15:24] [Server thread/INFO]: [Not Secure] <KaraVit> zi
-[03:15:26] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[03:15:28] [Server thread/INFO]: [Not Secure] <Franceskko> :;
-[03:15:31] [Server thread/INFO]: [Not Secure] <KaraVit> como salimos
-[03:15:44] [Server thread/INFO]: [Not Secure] <Franceskko> y
-[03:15:53] [Server thread/INFO]: [Not Secure] <KaraVit> opa mas diamond
-[03:16:56] [Server thread/INFO]: [Not Secure] <KaraVit> a por aca se sale
-[03:17:19] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[03:17:26] [Server thread/INFO]: [Not Secure] <Franceskko> hasta no tener un stack no me voy
-[03:17:49] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
-[03:18:09] [Server thread/INFO]: [Not Secure] <KaraVit> fijate si no encontras las dungeons
-[03:18:13] [Server thread/INFO]: [Not Secure] <KaraVit> o la ancient
-[03:18:46] [Server thread/INFO]: Franceskko has made the advancement [Ice Bucket Challenge]
-[03:19:06] [Server thread/INFO]: [Not Secure] <KaraVit> vai a hacer portal?
-[03:19:25] [Server thread/INFO]: [Not Secure] <Franceskko> te imaginas
-[03:19:41] [Server thread/INFO]: [Not Secure] <KaraVit> o mejor aun
-[03:19:43] [Server thread/INFO]: [Not Secure] <KaraVit> mesa de enchants
-[03:19:58] [Server thread/INFO]: [Not Secure] <Franceskko> y obvio
-[03:20:06] [Server thread/INFO]: [Not Secure] <KaraVit> ahit e busco cuero pa los libros
-[03:20:08] [Server thread/INFO]: [Not Secure] <KaraVit> y azucal
-[03:20:23] [Server thread/INFO]: [Not Secure] <Franceskko> igual tengo 21 lvl
-[03:20:28] [Server thread/INFO]: [Not Secure] <Franceskko> :(
-[03:20:35] [Server thread/INFO]: [Not Secure] <KaraVit> opa aldea
-[03:21:14] [Server thread/INFO]: KaraVit has made the advancement [Sweet Dreams]
-[03:22:15] [Server thread/INFO]: [Not Secure] <Franceskko> con 18 alcanza no
-[03:22:19] [Server thread/INFO]: [Not Secure] <Franceskko> para portal y mesa
-[03:22:24] [Server thread/INFO]: [Not Secure] <KaraVit> sipa
-[03:24:22] [Server thread/INFO]: [Not Secure] <KaraVit> efe
-[03:24:25] [Server thread/INFO]: [Not Secure] <KaraVit> no hay casa con libreria
-[03:29:15] [Server thread/INFO]: KaraVit has made the advancement [Who is Cutting Onions?]
-[03:29:40] [Server thread/INFO]: KaraVit has made the advancement [Ice Bucket Challenge]
-[03:30:09] [Server thread/INFO]: [Not Secure] <KaraVit> subistes ia'
-[03:30:34] [Server thread/INFO]: [Not Secure] <Franceskko> en eso estoy
-[03:31:52] [Server thread/INFO]: [Not Secure] <KaraVit> chetuki 3 aldeas ia
-[03:32:09] [Server thread/INFO]: [Not Secure] <Franceskko> chetuki
-[03:32:14] [Server thread/INFO]: [Not Secure] <Franceskko> no apareces en el mapa
-[03:32:27] [Server thread/INFO]: [Not Secure] <KaraVit> cords?
-[03:32:43] [Server thread/INFO]: [Not Secure] <Franceskko> 74 38
-[03:32:46] [Server thread/INFO]: [Not Secure] <KaraVit> a
-[03:32:48] [Server thread/INFO]: [Not Secure] <KaraVit> 1000 bloques
-[03:33:02] [Server thread/INFO]: [Not Secure] <KaraVit> ay voi
-[03:35:10] [Server thread/INFO]: Franceskko has made the advancement [Take Aim]
-[03:35:28] [Server thread/INFO]: [Not Secure] <KaraVit> seguia i
-[03:35:29] [Server thread/INFO]: [Not Secure] <KaraVit> ahi
-[03:35:48] [Server thread/INFO]: [Not Secure] <Franceskko> ¿
-[03:35:51] [Server thread/INFO]: [Not Secure] <KaraVit> Si seguis ahi
-[03:36:04] [Server thread/INFO]: [Not Secure] <Franceskko> no exactamente
-[03:36:07] [Server thread/INFO]: [Not Secure] <Franceskko> pero cerca
-[03:36:09] [Server thread/INFO]: [Not Secure] <Franceskko> :p
-[03:37:44] [Server thread/INFO]: [Not Secure] <Franceskko> rre vivido
-[03:37:48] [Server thread/INFO]: [Not Secure] <Franceskko> se hacia full diamond
-[03:38:02] [Server thread/INFO]: Franceskko has made the advancement [Cover Me with Diamonds]
-[03:39:53] [Server thread/INFO]: KaraVit has made the advancement [Enchanter]
-[03:39:54] [Server thread/INFO]: Franceskko has made the advancement [Enchanter]
-[03:40:30] [Server thread/INFO]: [Not Secure] <KaraVit> tengo esto por si queres
-[03:41:12] [Server thread/INFO]: Franceskko has made the advancement [Sweet Dreams]
-[03:41:15] [Server thread/INFO]: [Not Secure] <KaraVit> rre gil
-[03:41:18] [Server thread/INFO]: [Not Secure] <KaraVit> las ponia separadas
-[03:41:25] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[03:41:27] [Server thread/INFO]: [Not Secure] <Franceskko> y obvio
-[03:41:45] [Server thread/INFO]: [Not Secure] <KaraVit> tengo 2 waystone
-[03:41:56] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[03:42:03] [Server thread/INFO]: [Not Secure] <KaraVit> Che
-[03:42:12] [Server thread/INFO]: [Not Secure] <KaraVit> Esta vez no habria que trolear con la casa
-[03:42:20] [Server thread/INFO]: [Not Secure] <KaraVit> que la habiamos hecho 500m lejos de la otra
-[03:42:41] [Server thread/INFO]: [Not Secure] <Franceskko> y donde la hacemo
-[03:42:54] [Server thread/INFO]: [Not Secure] <KaraVit> y noche
-[03:42:55] [Server thread/INFO]: [Not Secure] <KaraVit> pero cerca
-[03:43:53] [Server thread/INFO]: [Not Secure] <KaraVit> Che
-[03:43:54] [Server thread/INFO]: [Not Secure] <KaraVit> apreta la k
-[03:43:59] [Server thread/INFO]: [Not Secure] <Franceskko> pa q
-[03:44:02] [Server thread/INFO]: [Not Secure] <KaraVit> Fijate lo god
-[03:44:05] [Server thread/INFO]: [Not Secure] <Franceskko> se desactivan los shaders
-[03:44:08] [Server thread/INFO]: [Not Secure] <KaraVit> Y Goddd
-[03:44:14] [Server thread/INFO]: [Not Secure] <KaraVit> Se ve hermoso sin shaders
-[03:44:28] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[03:45:20] [Server thread/INFO]: [Not Secure] <KaraVit> Sera que nos papean
-[03:45:36] [Server thread/INFO]: [Not Secure] <Franceskko> y obvio pa
-[03:46:00] [Server thread/INFO]: [Not Secure] <KaraVit> Plus ULTRA
-[03:46:05] [Server thread/INFO]: KaraVit has made the advancement [We Need to Go Deeper]
-[03:46:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2619ms or 52 ticks behind
-[03:46:31] [Server thread/INFO]: [Not Secure] <KaraVit> Y
-[03:46:33] [Server thread/INFO]: [Not Secure] <KaraVit> Caquita el spawn
-[03:46:49] [Server thread/INFO]: Franceskko has made the advancement [We Need to Go Deeper]
-[03:47:38] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[03:49:09] [Server thread/INFO]: [Not Secure] <KaraVit> yyy
-[03:49:12] [Server thread/INFO]: [Not Secure] <KaraVit> te fuiste al overworld¿
-[03:49:17] [Server thread/INFO]: [Not Secure] <Franceskko> ci
-[03:49:47] [Server thread/INFO]: KaraVit has made the advancement [Oh Shiny]
-[03:53:52] [Server thread/INFO]: [Not Secure] <KaraVit> toca base aqui
-[03:54:14] [Server thread/INFO]: [Not Secure] <Franceskko> yep
-[03:54:37] [Server thread/INFO]: [Not Secure] <Franceskko> efe igual
-[03:54:42] [Server thread/INFO]: [Not Secure] <Franceskko> tenemos la gigamina abajo
-[03:54:48] [Server thread/INFO]: [Not Secure] <KaraVit> and¿
-[03:55:00] [Server thread/INFO]: [Not Secure] <Franceskko> y que si contruimos para abajo rip
-[03:56:09] [Server thread/INFO]: [Not Secure] <Franceskko> mira
-[03:56:11] [Server thread/INFO]: [Not Secure] <Franceskko> odin
-[03:56:27] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[03:59:40] [Server thread/INFO]: [Not Secure] <KaraVit> Che
-[03:59:45] [Server thread/INFO]: [Not Secure] <KaraVit> 5 dias pa la nueva temp
-[03:59:46] [Server thread/INFO]: [Not Secure] <KaraVit> jiju
-[03:59:57] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[04:00:58] [Server thread/INFO]: [Not Secure] <Franceskko> uff
-[04:01:02] [Server thread/INFO]: [Not Secure] <Franceskko> que god shaders
-[04:01:07] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[04:01:13] [Server thread/INFO]: [Not Secure] <KaraVit> Che
-[04:01:16] [Server thread/INFO]: [Not Secure] <KaraVit> y que se hace aca
-[04:01:33] [Server thread/INFO]: [Not Secure] <Franceskko> y la base pa
-[04:01:40] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
-[04:01:41] [Server thread/INFO]: [Not Secure] <KaraVit> pero que diseño
-[04:03:37] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
-[04:03:39] [Server thread/INFO]: [Not Secure] <KaraVit> Hacian una casa
-[04:03:54] [Server thread/INFO]: [Not Secure] <Franceskko> obvio pa
-[04:04:48] [Server thread/INFO]: [Not Secure] <KaraVit> che explorify y dungeons and caverns
-[04:04:49] [Server thread/INFO]: [Not Secure] <KaraVit> de que van
-[04:05:01] [Server thread/INFO]: [Not Secure] <Franceskko> y lo que dice el nombre
-[04:05:04] [Server thread/INFO]: [Not Secure] <Franceskko> mujaja
-[04:05:09] [Server thread/INFO]: [Not Secure] <KaraVit> bruh
-[04:05:11] [Server thread/INFO]: [Not Secure] <KaraVit> no vi ninguna
-[04:05:20] [Server thread/INFO]: [Not Secure] <Franceskko> y efe
-[04:05:23] [Server thread/INFO]: [Not Secure] <Franceskko> seran raras
-[04:08:35] [Server thread/INFO]: [Not Secure] <Franceskko> yyyyyy
-[04:08:41] [Server thread/INFO]: [Not Secure] <Franceskko> se sleepea
-[04:08:44] [Server thread/INFO]: [Not Secure] <Franceskko> :p
-[04:09:16] [Server thread/INFO]: [Not Secure] <KaraVit> Yyy
-[04:09:18] [Server thread/INFO]: [Not Secure] <KaraVit> Si es rre temprano
-[04:09:27] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[04:09:31] [Server thread/INFO]: [Not Secure] <KaraVit> Entendes
-[04:09:33] [Server thread/INFO]: [Not Secure] <KaraVit> Mujajaja
-[04:09:38] [Server thread/INFO]: [Not Secure] <Franceskko> no
-[04:09:54] [Server thread/INFO]: [Not Secure] <KaraVit> y que ya es otro dia y solo son las 1 de la mañana solo paso 1 hora del dia y ya de por si es temprano
-[04:10:12] [Server thread/INFO]: [Not Secure] <Franceskko> :|
-[04:12:16] [Server thread/INFO]: [Not Secure] <Franceskko> un peruano
-[04:12:19] [Server thread/INFO]: [Not Secure] <KaraVit> Avanzaban una banda en 2 horitas
-[04:12:33] [Server thread/INFO]: [Not Secure] <Franceskko> y god
-[04:12:47] [Server thread/INFO]: [Not Secure] <Franceskko> como la hago
-[04:12:52] [Server thread/INFO]: [Not Secure] <Franceskko> pq atras esta la cueva
-[04:13:06] [Server thread/INFO]: [Not Secure] <KaraVit> Tan larga no creo que sea
-[04:13:26] [Server thread/INFO]: [Not Secure] <Franceskko> y va a quedar ovalada si la hago simetrica
-[04:13:31] [Server thread/INFO]: [Not Secure] <Franceskko> :d
-[04:13:34] [Server thread/INFO]: [Not Secure] <KaraVit> y ta bien
-[04:13:38] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[04:13:41] [Server thread/INFO]: [Not Secure] <Franceskko> horrible
-[04:13:48] [Server thread/INFO]: [Not Secure] <KaraVit> ;||
-[04:16:39] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[04:16:50] [Server thread/INFO]: [Not Secure] <Franceskko> tendria que haberlo hecho en vertical para adentro
-[04:17:00] [Server thread/INFO]: [Not Secure] <KaraVit> ???
+[19:35:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:35:17] [main/INFO]: Compatibility level set to JAVA_16
+[19:35:17] [main/INFO]: Compatibility level set to JAVA_17
+[19:35:17] [main/INFO]: Compatibility level set to JAVA_21
+[19:35:17] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[19:35:18] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[19:35:18] [main/INFO]: Applying Nashorn fix
+[19:35:19] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:35:19] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[19:35:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:35:23] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:35:23] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[19:35:23] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:35:23] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:35:26] [main/INFO]: Vanilla bootstrap took 5925 milliseconds
+[19:35:26] [main/INFO]: Loading Collective version 7.91.
+[19:35:27] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[19:35:27] [main/INFO]: Loading Noisium.
+[19:35:27] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[19:35:27] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:35:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:35:29] [main/INFO]: Loaded 1337 recipes
+[19:35:29] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[19:35:29] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_ominous_make_fall, nova_structures:phantom_boss_make_fall]
+[19:35:29] [main/INFO]: Loaded 1449 advancements
+[19:35:29] [main/INFO]: Reloading grave shape (server)
+[19:35:29] [main/INFO]: Grave model and shape reload successful (server)
+[19:35:29] [main/INFO]: Reloading YIGD graveyard data (server)
+[19:35:29] [main/INFO]: Graveyard data successfully reloaded (server)
+[19:35:29] [main/INFO]: Reloading YIGD grave area overrides (server)
+[19:35:29] [main/INFO]: Grave area overrides successfully reloaded (server)
+[19:35:29] [main/INFO]: Applied 66 biome modifications to 63 of 64 new biomes in 7.904 ms
+[19:35:29] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:35:29] [Server thread/INFO]: Loading properties
+[19:35:29] [Server thread/INFO]: Default game type: SURVIVAL
+[19:35:29] [Server thread/INFO]: Generating keypair
+[19:35:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:35:29] [Server thread/INFO]: Using epoll channel type
+[19:35:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:35:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:35:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:35:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:35:29] [Server thread/INFO]: Preparing level "world"
+[19:35:30] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[19:35:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:35:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:35:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:35:31] [Server thread/INFO]: Time elapsed: 708 ms
+[19:35:31] [Server thread/INFO]: Done (1.161s)! For help, type "help"
+[19:35:31] [Server thread/WARN]: Dedicated server took 16.995 seconds to load
+[19:36:28] [Server thread/INFO]: Franceskko[/100.96.204.97:60512] logged in with entity id 35 at (135.20524186738416, 72.0, 30.396110030183824)
+[19:36:28] [Server thread/INFO]: Franceskko joined the game
+[19:36:28] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[19:51:34] [Server thread/INFO]: [Franceskko: Gave 128 [Coal] to Franceskko]
+[19:53:51] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 109.000000, 69.000000, 362.000000]
+[19:55:41] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 147.000000, 71.000000, 44.000000]
+[20:04:02] [Server thread/INFO]: [Franceskko: Gave 128 [Torch] to Franceskko]
