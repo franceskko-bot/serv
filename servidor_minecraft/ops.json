@@ -10,5 +10,11 @@
     "name": "SantoDarkendo",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "23c3266f-6bb7-361c-8fa9-c64b3f8ea847",
+    "name": "KaraVit",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
