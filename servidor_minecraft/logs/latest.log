@@ -1,6 +1,13 @@
-[00:41:52] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[00:41:53] [main/INFO]: Loading 77 mods:
+[18:51:11] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[18:51:11] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 11
+[18:51:11] [main/INFO]: Loading 89 mods:
+	- advancednetherite 2.1.6-1.21
 	- architectury 13.0.8
+	- artifacts 12.0.6
+	   |-- com_electronwill_night-config_core 3.8.0
+	   |-- com_electronwill_night-config_toml 3.8.0
+	   \-- expandability 12.0.0
 	- balm-fabric 21.0.27
 	   \-- kuma_api 21.0.5-SNAPSHOT
 	- cardinal-components 6.1.2
@@ -15,7 +22,10 @@
 	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
 	- collective 7.91
+	- default_skill_trees 1.1
 	- doubledoors 6.1
+	- dungeons_arise 2.1.60
+	- dungeons_arise_seven_seas 1.0.3
 	- explorify 1.6.2
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
@@ -77,12 +87,17 @@
 	- modernfix 5.19.1+mc1.21
 	- mr_dungeons_andtavernsendcastlestandalone 1-v1.1
 	- noisium 2.3.0+mc1.21-1.21.1
+	- puffish_attributes 0.7.2
+	   \-- mixinextras 0.4.1
+	- puffish_skills 0.14.7
 	- servercore 1.5.4+1.21
 	   |-- fabric-permissions-api-v0 0.3.1
 	   |-- org_yaml_snakeyaml 2.2
 	   |-- placeholder-api 2.4.0+1.21
 	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
 	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- travelersbackpack 10.1.15
+	- trinkets 3.10.0
 	- waystones 21.1.10
 	- yigd 2.4.14
 	   |-- fabric-permissions-api-v0 0.3.1
@@ -90,391 +105,104 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[00:41:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:41:53] [main/INFO]: Compatibility level set to JAVA_16
-[00:41:53] [main/INFO]: Compatibility level set to JAVA_17
-[00:41:53] [main/INFO]: Compatibility level set to JAVA_21
-[00:41:53] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[00:41:53] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[00:41:53] [main/INFO]: Applying Nashorn fix
-[00:41:54] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[00:41:54] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[00:41:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:41:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[00:41:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[00:41:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[00:41:58] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[00:42:00] [main/INFO]: Vanilla bootstrap took 5524 milliseconds
-[00:42:01] [main/INFO]: Loading Collective version 7.91.
-[00:42:01] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[00:42:01] [main/INFO]: Loading Noisium.
-[00:42:01] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[00:42:01] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[00:42:01] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:42:01] [main/INFO]: Found new data pack balm-fabric, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack collective, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack explorify, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack fabric, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack mr_dungeons_andtavernsendcastlestandalone, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack waystones, loading it automatically
-[00:42:01] [main/INFO]: Found new data pack yigd, loading it automatically
-[00:42:02] [main/INFO]: No existing world data, creating new world
-[00:42:03] [main/INFO]: Loaded 1337 recipes
-[00:42:03] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
-[00:42:03] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_ominous_make_fall, nova_structures:phantom_boss_make_fall]
-[00:42:03] [main/INFO]: Loaded 1449 advancements
-[00:42:03] [main/INFO]: Reloading grave shape (server)
-[00:42:03] [main/INFO]: Grave model and shape reload successful (server)
-[00:42:03] [main/INFO]: Reloading YIGD graveyard data (server)
-[00:42:03] [main/INFO]: Graveyard data successfully reloaded (server)
-[00:42:03] [main/INFO]: Reloading YIGD grave area overrides (server)
-[00:42:03] [main/INFO]: Grave area overrides successfully reloaded (server)
-[00:42:04] [main/INFO]: Applied 66 biome modifications to 63 of 64 new biomes in 8.320 ms
-[00:42:04] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:42:04] [Server thread/INFO]: Loading properties
-[00:42:04] [Server thread/INFO]: Default game type: SURVIVAL
-[00:42:04] [Server thread/INFO]: Generating keypair
-[00:42:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:42:04] [Server thread/INFO]: Using epoll channel type
-[00:42:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:42:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:42:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:42:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:42:04] [Server thread/INFO]: Preparing level "world"
-[00:42:04] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[00:42:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:15] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[00:42:16] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:16] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:42:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[00:42:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[00:42:18] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[00:42:18] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[00:42:19] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[00:42:19] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[00:42:20] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[00:42:20] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[00:42:21] [Worker-Main-3/INFO]: Preparing spawn area: 63%
-[00:42:21] [Server thread/INFO]: Time elapsed: 9098 ms
-[00:42:21] [Server thread/INFO]: Done (16.907s)! For help, type "help"
-[00:42:21] [Server thread/WARN]: Dedicated server took 29.495 seconds to load
-[00:42:30] [Server thread/INFO]: Franceskko[/100.96.204.97:61222] logged in with entity id 57 at (85.5, 74.0, 73.5)
-[00:42:30] [Server thread/INFO]: Franceskko joined the game
-[00:42:31] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
-[00:45:17] [Server thread/INFO]: Franceskko has made the advancement [Stone Age]
-[00:46:28] [Server thread/INFO]: Franceskko has made the advancement [Getting an Upgrade]
-[00:50:03] [Server thread/INFO]: Franceskko has made the advancement [Acquire Hardware]
-[00:50:42] [Server thread/INFO]: SantoDarkendo[/100.86.176.97:52751] logged in with entity id 2846 at (79.5, 72.0, 80.5)
-[00:50:42] [Server thread/INFO]: SantoDarkendo joined the game
-[00:50:45] [Server thread/INFO]: Priority overwritten for player SantoDarkendo. Claiming: GRAVE / Robbing: INVENTORY
-[00:51:15] [Server thread/INFO]: [Franceskko: Teleported Franceskko to SantoDarkendo]
-[00:51:32] [Server thread/INFO]: [Not Secure] <SantoDarkendo> q onda con la skin
-[00:51:38] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[00:51:40] [Server thread/INFO]: [Not Secure] <SantoDarkendo> y porque en zunga
-[00:51:40] [Server thread/INFO]: [Not Secure] <Franceskko> q tiene
-[00:51:46] [Server thread/INFO]: [Not Secure] <Franceskko> ¿
-[00:51:49] [Server thread/INFO]: [Not Secure] <Franceskko> veia rre mal
-[00:51:59] [Server thread/INFO]: [Not Secure] <SantoDarkendo> uy un lag
-[00:52:15] [Server thread/INFO]: [Not Secure] <Franceskko> o es tu wifi
-[00:52:19] [Server thread/INFO]: [Not Secure] <SantoDarkendo> las 2
-[00:53:04] [Server thread/INFO]: [Not Secure] <SantoDarkendo> epico no puedo jugar ni en pedo xDDd
-[00:53:13] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[00:53:51] [Server thread/INFO]: Franceskko has made the advancement [Sweet Dreams]
-[00:53:59] [Server thread/INFO]: SantoDarkendo has made the advancement [Sweet Dreams]
-[00:54:29] [Server thread/INFO]: [Not Secure] <SantoDarkendo> bioma choto
-[00:54:38] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[00:54:40] [Server thread/INFO]: [Not Secure] <Franceskko> el mejor
-[00:55:00] [Server thread/INFO]: SantoDarkendo has made the advancement [Stone Age]
-[00:56:29] [Server thread/INFO]: SantoDarkendo has made the advancement [Getting an Upgrade]
-[00:57:07] [Server thread/INFO]: [Not Secure] <SantoDarkendo> donde fuiste
-[00:57:29] [Server thread/INFO]: [Not Secure] <Franceskko> y
-[00:57:32] [Server thread/INFO]: [Not Secure] <Franceskko> una mina
-[00:57:42] [Server thread/INFO]: [Not Secure] <SantoDarkendo> coordenadsa pa
-[00:57:54] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[00:57:57] [Server thread/INFO]: [Not Secure] <Franceskko> es una garcha
-[00:58:04] [Server thread/INFO]: [Not Secure] <SantoDarkendo> mejor
-[00:58:22] [Server thread/INFO]: [Not Secure] <SantoDarkendo> creo q encontre una mejor
-[00:58:27] [Server thread/INFO]: [Not Secure] <Franceskko> -117 -218
-[00:58:30] [Server thread/INFO]: [Not Secure] <SantoDarkendo> pero es mas una grieta para abajo
-[01:01:18] [Server thread/INFO]: [Not Secure] <Franceskko> lleno de craters
-[01:01:27] [Server thread/INFO]: [Not Secure] <SantoDarkendo> estuvo la mama de dahuer entonces
-[01:01:48] [Server thread/INFO]: [Not Secure] <Franceskko> tipo el crater de rdr2
-[01:02:48] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[01:02:54] [Server thread/INFO]: [Not Secure] <Franceskko> me desaparecio el escudo
-[01:02:58] [Server thread/INFO]: [Not Secure] <SantoDarkendo> f
-[01:03:10] [Server thread/INFO]: Franceskko has made the advancement [Not Today, Thank You]
-[01:03:14] [Server thread/INFO]: Franceskko has made the advancement [Monster Hunter]
-[01:03:32] [Server thread/INFO]: [Not Secure] <Franceskko> che esta rre bug mi mc
-[01:03:40] [Server thread/INFO]: [Not Secure] <Franceskko> las particulas se ven negras
-[01:03:48] [Server thread/INFO]: [Not Secure] <SantoDarkendo> mmm fijate configuracion entonces
-[01:04:37] [Server thread/INFO]: [Not Secure] <SantoDarkendo> no es q tenga lag
-[01:04:46] [Server thread/INFO]: [Not Secure] <SantoDarkendo> pero es como q puedo romper la madera de un lugar pero de otro no
-[01:04:48] [Server thread/INFO]: [Not Secure] <SantoDarkendo> cualquiera
-[01:05:15] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[01:05:25] [Server thread/INFO]: [Not Secure] <Franceskko> sera pq no sos admin
-[01:05:43] [Server thread/INFO]: [Franceskko: Made SantoDarkendo a server operator]
-[01:06:10] [Server thread/INFO]: Franceskko has made the advancement [Isn't It Iron Pick]
-[01:08:18] [Server thread/INFO]: [Not Secure] <SantoDarkendo> en q capa andas
-[01:08:28] [Server thread/INFO]: [Not Secure] <Franceskko> 42
-[01:10:21] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -264.000000, 66.000000, -567.000000]
-[01:11:06] [Server thread/INFO]: SantoDarkendo has made the advancement [Monster Hunter]
-[01:11:27] [Server thread/INFO]: [Franceskko: Teleported Franceskko to SantoDarkendo]
-[01:12:08] [Server thread/INFO]: SantoDarkendo has made the advancement [Acquire Hardware]
-[01:12:38] [Server thread/INFO]: SantoDarkendo has made the advancement [Isn't It Iron Pick]
-[01:12:53] [Server thread/INFO]: Franceskko has made the advancement [Suit Up]
-[01:15:34] [Server thread/INFO]: [Not Secure] <SantoDarkendo> che akta cueva
-[01:15:43] [Server thread/INFO]: [Not Secure] <Franceskko> y
-[01:15:45] [Server thread/INFO]: [Not Secure] <Franceskko> facts
-[01:16:52] [Server thread/INFO]: [Franceskko: Teleported Franceskko to SantoDarkendo]
-[01:17:17] [Server thread/INFO]: [Not Secure] <Franceskko> toma
-[01:17:19] [Server thread/INFO]: [Not Secure] <Franceskko> petin
-[01:17:24] [Server thread/INFO]: SantoDarkendo has made the advancement [Suit Up]
-[01:19:17] [Server thread/INFO]: KaraVit[/100.109.49.4:64410] logged in with entity id 15410 at (86.5, 73.0, 89.5)
-[01:19:17] [Server thread/INFO]: KaraVit joined the game
-[01:19:18] [Server thread/INFO]: Priority overwritten for player KaraVit. Claiming: GRAVE / Robbing: INVENTORY
-[01:19:23] [Server thread/INFO]: [Not Secure] <KaraVit> efe
-[01:19:26] [Server thread/INFO]: [Not Secure] <KaraVit> Bioma de md
-[01:19:29] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[01:19:40] [Server thread/INFO]: [Not Secure] <SantoDarkendo> si no sabe no opine
-[01:19:41] [Server thread/INFO]: [Not Secure] <KaraVit> Che
-[01:19:43] [Server thread/INFO]: [Not Secure] <Franceskko> se conectaba desde lo de su prima
-[01:19:45] [Server thread/INFO]: [Not Secure] <KaraVit> es otro mundo o no alfinal
-[01:19:59] [Server thread/INFO]: [Not Secure] <KaraVit> Osea empezamo de 0¿
-[01:20:05] [Server thread/INFO]: [Not Secure] <SantoDarkendo> simon
-[01:20:17] [Server thread/INFO]: [Not Secure] <KaraVit> che frank
-[01:20:20] [Server thread/INFO]: [Not Secure] <KaraVit> dame creativo y sacamelo
-[01:20:23] [Server thread/INFO]: [Not Secure] <KaraVit> tengo elbug de ayer
-[01:20:32] [Server thread/INFO]: Franceskko has made the advancement [Diamonds!]
-[01:20:43] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[01:20:45] [Server thread/INFO]: [Not Secure] <KaraVit> a ya
-[01:20:55] [Server thread/INFO]: [Franceskko: Made KaraVit a server operator]
-[01:21:19] [Server thread/INFO]: [Not Secure] <KaraVit> osea es el mismo mundo pero empezamos de 0
-[01:21:43] [Server thread/INFO]: [Not Secure] <Franceskko> :|
-[01:21:47] [Server thread/INFO]: [Not Secure] <Franceskko> claramente no
-[01:22:02] [Server thread/INFO]: [Not Secure] <KaraVit> really¿
-[01:22:08] [Server thread/INFO]: [Not Secure] <SantoDarkendo> tepeame franco
-[01:22:10] [Server thread/INFO]: [Not Secure] <KaraVit> yo veo el mapa y es el mismo
-[01:22:12] [Server thread/INFO]: [KaraVit: Teleported KaraVit to 704.000000, 64.000000, 103.000000]
-[01:22:21] [Server thread/INFO]: KaraVit suffocated in a wall
-[01:22:26] [Server thread/INFO]: [Not Secure] <KaraVit> rarete
-[01:22:26] [Server thread/INFO]: [Not Secure] <SantoDarkendo> sos un pelotudo
-[01:22:30] [Server thread/INFO]: [Not Secure] <KaraVit> se me rre bugeo
-[01:22:35] [Server thread/INFO]: [Not Secure] <SantoDarkendo> por pelotudo
-[01:23:17] [Server thread/INFO]: SantoDarkendo drowned
-[01:23:21] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[01:23:21] [Server thread/INFO]: [Not Secure] <KaraVit> Por pelotudo
-[01:23:32] [Server thread/INFO]: [Not Secure] <Franceskko> era rre rapido el karma
-[01:24:04] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[01:24:33] [Server thread/INFO]: [Not Secure] <KaraVit> Jeje god
-[01:25:02] [Server thread/INFO]: KaraVit has made the advancement [Acquire Hardware]
-[01:25:44] [Server thread/INFO]: KaraVit has made the advancement [Isn't It Iron Pick]
-[01:25:57] [Server thread/INFO]: KaraVit has made the advancement [Monster Hunter]
-[01:26:50] [Server thread/INFO]: KaraVit has made the advancement [Suit Up]
-[01:27:04] [Server thread/INFO]: [Not Secure] <SantoDarkendo> una help
-[01:27:11] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
-[01:27:14] [Server thread/INFO]: [Not Secure] <KaraVit> Recien ento
-[01:27:20] [Server thread/INFO]: [Not Secure] <KaraVit> @franco
-[01:27:30] [Server thread/INFO]: [Not Secure] <SantoDarkendo> donde estoy necesito conseguir la tumba xd
-[01:28:01] [Server thread/INFO]: [Not Secure] <SantoDarkendo> franco hazme el pt
-[01:28:03] [Server thread/INFO]: [Not Secure] <SantoDarkendo> digo el tp
-[01:28:15] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[01:28:17] [Server thread/INFO]: [Not Secure] <Franceskko> y hacelo
-[01:28:21] [Server thread/INFO]: [Not Secure] <Franceskko> si sos admin
-[01:28:41] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to Franceskko]
-[01:28:48] [Server thread/INFO]: [Not Secure] <SantoDarkendo> mira un boliviano
-[01:29:08] [Server thread/INFO]: [Not Secure] <SantoDarkendo> we y el ahumador
-[01:29:13] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to KaraVit]
-[01:29:20] [Server thread/INFO]: SantoDarkendo was slain by KaraVit
-[01:29:32] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[01:29:33] [Server thread/INFO]: [Not Secure] <SantoDarkendo> ya fue
-[01:29:35] [Server thread/INFO]: [Not Secure] <Franceskko> ya trolleaban
-[01:29:36] [Server thread/INFO]: [Not Secure] <SantoDarkendo> pongo 10000 tnt
-[01:29:42] [Server thread/INFO]: [Not Secure] <KaraVit> Me robo mis lingotes pa
-[01:29:49] [Server thread/INFO]: [KaraVit: Teleported SantoDarkendo to KaraVit]
-[01:29:59] [Server thread/INFO]: SantoDarkendo claimed a grave belonging to SantoDarkendo at 250, 63, 188, minecraft:overworld
-[01:30:30] [Server thread/INFO]: [Not Secure] <KaraVit> capaz estafo a alguien hoy
-[01:30:38] [Server thread/INFO]: [Not Secure] <KaraVit> Dios quiera que si
-[01:30:42] [Server thread/INFO]: [Not Secure] <Franceskko> ¿
-[01:30:57] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to Franceskko]
-[01:31:08] [Server thread/INFO]: [Not Secure] <Franceskko> a clara pq le dijiste que te mide mas de lo que te mide enrealidad
-[01:31:20] [Server thread/INFO]: KaraVit has made the advancement [Sweet Dreams]
-[01:31:22] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[01:33:38] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[01:34:14] [Server thread/INFO]: [Not Secure] <KaraVit> tremendo relleno
-[01:36:30] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -125.000000, 80.000000, -878.000000]
-[01:39:03] [Server thread/INFO]: SantoDarkendo drowned
-[01:39:16] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to Franceskko]
-[01:39:18] [Server thread/INFO]: SantoDarkendo fell from a high place
-[01:39:18] [Server thread/INFO]: No grave backup generated (empty grave)
-[01:39:21] [Server thread/INFO]: [Not Secure] <SantoDarkendo> .-.
-[01:39:26] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[01:39:27] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to KaraVit]
-[01:39:41] [Server thread/INFO]: [Not Secure] <KaraVit> no tengo agua
-[01:39:42] [Server thread/INFO]: [Not Secure] <KaraVit> jiju
-[01:40:19] [Server thread/INFO]: [Not Secure] <Franceskko> tepeate si queres
-[01:40:24] [Server thread/INFO]: SantoDarkendo was shot by Skeleton
-[01:40:24] [Server thread/INFO]: No grave backup generated (empty grave)
-[01:40:27] [Server thread/INFO]: [Not Secure] <Franceskko> estoy en una aldea
-[01:40:33] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to Franceskko]
-[01:41:17] [Server thread/INFO]: KaraVit has made the advancement [Diamonds!]
-[01:41:19] [Server thread/INFO]: KaraVit has made the advancement [Stone Age]
-[01:41:25] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[01:41:32] [Server thread/INFO]: [Not Secure] <Franceskko> ya empezaba a vivirla
-[01:41:39] [Server thread/INFO]: [Not Secure] <KaraVit> Bruuh
-[01:41:39] [Server thread/INFO]: [Not Secure] <SantoDarkendo> oye
-[01:41:41] [Server thread/INFO]: [Not Secure] <KaraVit> y que h ago
-[01:41:42] [Server thread/INFO]: [Not Secure] <KaraVit> Dormir
-[01:41:42] [Server thread/INFO]: [Not Secure] <SantoDarkendo> y si lo baneamos?
-[01:42:02] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to Franceskko]
-[01:42:34] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to -252.500000, 41.000000, -174.500000]
-[01:42:53] [Server thread/INFO]: [SantoDarkendo: Teleported SantoDarkendo to 41.500000, 63.000000, 115.500000]
-[01:43:13] [Server thread/INFO]: [Not Secure] <SantoDarkendo> me estoy rre cagando
-[01:43:15] [Server thread/INFO]: [Not Secure] <SantoDarkendo> luego entro
-[01:43:17] [Server thread/INFO]: SantoDarkendo lost connection: Disconnected
-[01:43:17] [Server thread/INFO]: SantoDarkendo left the game
-[01:43:29] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[01:43:38] [Server thread/INFO]: [Not Secure] <Franceskko> pobre toilet
-[01:43:49] [Server thread/INFO]: [Not Secure] <KaraVit> Pobres cañerias
-[01:44:19] [Server thread/WARN]: KaraVit moved wrongly!
-[01:45:33] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[01:45:38] [Server thread/INFO]: [Not Secure] <Franceskko> no hay cuevas como la de ayer
-[01:45:40] [Server thread/INFO]: [Not Secure] <KaraVit> y
-[01:45:43] [Server thread/INFO]: [Not Secure] <KaraVit> yo recien encontre
-[01:45:46] [Server thread/INFO]: [Not Secure] <KaraVit> pero es poquitin mas pobre
-[01:45:55] [Server thread/INFO]: [Not Secure] <KaraVit> tengo 40 diamantes apenas
-[01:45:55] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[01:46:10] [Server thread/INFO]: [Not Secure] <KaraVit> -18
-[01:46:55] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[01:46:59] [Server thread/INFO]: [Not Secure] <Franceskko> dos perlitas
-[01:47:06] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[01:47:44] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[01:48:45] [Server thread/INFO]: [Not Secure] <KaraVit> ttenes agua
-[01:48:53] [Server thread/INFO]: [Not Secure] <KaraVit> casi ripeo
-[01:48:58] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[01:49:02] [Server thread/INFO]: [Not Secure] <Franceskko> no se hacia un cubo
-[01:49:16] [Server thread/INFO]: [Not Secure] <KaraVit> ahora chi
-[01:49:32] [Server thread/INFO]: [Not Secure] <KaraVit> opa
-[01:49:41] [Server thread/INFO]: [Not Secure] <KaraVit> teimaginas hay ancient aca
-[01:49:58] [Server thread/INFO]: KaraVit has made the advancement [Sneak 100]
-[01:51:17] [Server thread/INFO]: Franceskko has made the advancement [Sneak 100]
-[01:51:22] [Server thread/INFO]: KaraVit has completed the challenge [It Spreads]
-[01:52:33] [Server thread/INFO]: [Not Secure] <KaraVit> Uff
-[01:52:35] [Server thread/INFO]: [Not Secure] <KaraVit> mena de 8
-[01:53:10] [Server thread/INFO]: KaraVit has made the advancement [Not Today, Thank You]
-[01:53:39] [Server thread/INFO]: [Not Secure] <KaraVit> Jiji
-[01:53:46] [Server thread/INFO]: [Not Secure] <KaraVit> encontre lo goty
-[01:54:15] [Server thread/INFO]: [Not Secure] <Franceskko> chetuki
-[01:54:25] [Server thread/INFO]: [Not Secure] <KaraVit> ke
-[01:54:31] [Server thread/INFO]: [Not Secure] <Franceskko> casi ripeo
-[01:54:32] [Server thread/INFO]: [Not Secure] <Franceskko> ajio
-[01:55:13] [Server thread/INFO]: [Not Secure] <KaraVit> cheto
-[01:55:15] [Server thread/INFO]: [Not Secure] <KaraVit> me gaste la notch
-[01:55:24] [Server thread/INFO]: [Not Secure] <KaraVit> casi ripeo
-[01:55:26] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[01:55:37] [Server thread/INFO]: [Not Secure] <KaraVit> me pusiste un creeper en la espada
-[01:55:39] [Server thread/INFO]: [Not Secure] <KaraVit> espalda*
-[01:55:48] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[01:55:55] [Server thread/INFO]: [Not Secure] <KaraVit> Y casi ripeo
-[01:56:36] [Server thread/INFO]: [Not Secure] <Franceskko> cheto fue a detonar el baño literal
-[01:56:52] [Server thread/INFO]: [Not Secure] <KaraVit> mal
-[02:01:20] [Server thread/INFO]: [Not Secure] <KaraVit> Chetuki
-[02:01:23] [Server thread/INFO]: [Not Secure] <KaraVit> La mea cagada
-[02:02:05] [Server thread/INFO]: Franceskko has made the advancement [Minecraft: Trial(s) Edition]
-[02:02:05] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[02:02:13] [Server thread/INFO]: [Not Secure] <KaraVit> :D
-[02:02:42] [Server thread/INFO]: [Not Secure] <KaraVit> Eso es lo de las dungeos?
-[02:02:48] [Server thread/INFO]: [Not Secure] <Franceskko> si
-[02:02:51] [Server thread/INFO]: [Not Secure] <Franceskko> alta kk
-[02:02:52] [Server thread/INFO]: [Not Secure] <KaraVit> yendoo
-[02:03:20] [Server thread/INFO]: [Not Secure] <KaraVit> wats
-[02:03:22] [Server thread/INFO]: [Not Secure] <KaraVit> tan lejos estas
-[02:03:24] [Server thread/INFO]: [Not Secure] <KaraVit> no te veo en el map
-[02:03:43] [Server thread/INFO]: [Not Secure] <KaraVit> Tas zona segura para tp?
-[02:03:47] [Server thread/INFO]: Franceskko has made the advancement [Cover Me with Diamonds]
-[02:04:07] [Server thread/INFO]: [Not Secure] <Franceskko> tepeate
-[02:04:12] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
-[02:04:12] [Server thread/INFO]: KaraVit has made the advancement [Minecraft: Trial(s) Edition]
-[02:04:20] [Server thread/INFO]: KaraVit has made the advancement [Cover Me with Diamonds]
-[02:06:28] [Server thread/INFO]: Franceskko has made the advancement [Under Lock and Key]
-[02:06:34] [Server thread/INFO]: [Not Secure] <KaraVit> god
-[02:06:57] [Server thread/INFO]: [Not Secure] <KaraVit> y
-[02:06:58] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[02:07:00] [Server thread/INFO]: [Not Secure] <Franceskko> alta kk
-[02:07:00] [Server thread/INFO]: [Not Secure] <KaraVit> hasta que nos salga la llave god
-[02:07:04] [Server thread/INFO]: [Not Secure] <KaraVit> la aazul
-[02:09:42] [Server thread/INFO]: [Not Secure] <KaraVit> god
-[02:09:58] [Server thread/INFO]: Franceskko has made the advancement [Take Aim]
-[02:10:04] [Server thread/INFO]: KaraVit has made the advancement [Take Aim]
-[02:10:17] [Server thread/INFO]: [Not Secure] <KaraVit> 5 llaves
-[02:10:20] [Server thread/INFO]: [Not Secure] <KaraVit> 6
-[02:10:33] [Server thread/INFO]: KaraVit has made the advancement [Under Lock and Key]
-[02:10:39] [Server thread/INFO]: [Not Secure] <KaraVit> GOD
-[02:10:43] [Server thread/INFO]: [Not Secure] <KaraVit> va no tanto
-[02:13:23] [Server thread/INFO]: [Not Secure] <KaraVit> aca hay mas
-[02:13:32] [Server thread/INFO]: [Not Secure] <Franceskko> esta es la goty
-[02:13:34] [Server thread/INFO]: [Not Secure] <Franceskko> supongo
-[02:13:40] [Server thread/INFO]: [Not Secure] <KaraVit> a si
-[02:14:20] [Server thread/INFO]: [Not Secure] <KaraVit> tomamos una?
-[02:14:23] [Server thread/INFO]: [Not Secure] <KaraVit> asi nos da mejores cosas
-[02:14:24] [Server thread/INFO]: [Not Secure] <Franceskko> pa q
-[02:14:27] [Server thread/INFO]: [Not Secure] <KaraVit> vos o io
-[02:14:34] [Server thread/INFO]: [Not Secure] <Franceskko> :|
-[02:15:00] [Server thread/INFO]: [Not Secure] <KaraVit> te lanzan hechizos
-[02:15:05] [Server thread/INFO]: [Not Secure] <KaraVit> y se hacen mas dificiles por cada nivel de pocion
-[02:16:35] [Server thread/INFO]: [Not Secure] <Franceskko> alta kk
-[02:18:29] [Server thread/INFO]: [Not Secure] <KaraVit> cheto
-[02:18:30] [Server thread/INFO]: [Not Secure] <KaraVit> garchita
-[02:19:04] [Server thread/INFO]: Franceskko has reached the goal [Revaulting]
-[02:19:11] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[02:19:13] [Server thread/INFO]: [Not Secure] <Franceskko> alta kk
-[02:19:18] [Server thread/INFO]: [Not Secure] <KaraVit> q salio
-[02:19:26] [Server thread/INFO]: [Not Secure] <Franceskko> un bloque de esmeralda
-[02:19:29] [Server thread/INFO]: [Not Secure] <Franceskko> y diamantes
-[02:19:31] [Server thread/INFO]: [Not Secure] <KaraVit> gof
-[02:20:14] [Server thread/INFO]: [Not Secure] <Franceskko> na
-[02:20:17] [Server thread/INFO]: [Not Secure] <Franceskko> es una garcha
-[02:20:25] [Server thread/INFO]: [Not Secure] <KaraVit> tu suerte
-[02:20:31] [Server thread/INFO]: [Not Secure] <Franceskko> eso me salio
-[02:20:38] [Server thread/INFO]: [Not Secure] <KaraVit> Epico
-[02:22:22] [Server thread/INFO]: [Not Secure] <KaraVit> mucha mala suerte mepa
-[02:22:37] [Server thread/INFO]: [Not Secure] <Franceskko> el dungeons arise es mejor
-[02:22:40] [Server thread/INFO]: [Not Secure] <Franceskko> :P
-[02:23:03] [Server thread/INFO]: [Not Secure] <KaraVit> Cuanta exp tenes
-[02:23:10] [Server thread/INFO]: [Not Secure] <Franceskko> 12
-[02:23:12] [Server thread/INFO]: [Not Secure] <Franceskko> 25
-[02:23:14] [Server thread/INFO]: [Not Secure] <KaraVit> a
-[02:23:15] [Server thread/INFO]: [Not Secure] <KaraVit> x2
-[02:27:48] [Server thread/INFO]: [Not Secure] <KaraVit> god
-[02:27:49] [Server thread/INFO]: [Not Secure] <KaraVit> 2 goty
-[02:28:26] [Server thread/INFO]: KaraVit has reached the goal [Revaulting]
-[02:28:42] [Server thread/INFO]: [Not Secure] <KaraVit> uf
-[02:28:47] [Server thread/INFO]: [Not Secure] <KaraVit> Mal presagio 5
-[02:29:45] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[02:30:00] [Server thread/INFO]: [Not Secure] <KaraVit> weno
-[02:30:12] [Server thread/INFO]: [Not Secure] <Franceskko> weeno
-[02:30:20] [Server thread/INFO]: [Not Secure] <KaraVit> Mañana se chambea
-[02:30:30] [Server thread/INFO]: [Not Secure] <Franceskko> te imaginas
-[02:30:39] [Server thread/INFO]: [Not Secure] <KaraVit> :(
-[02:30:45] [Server thread/INFO]: [Not Secure] <KaraVit> Asi que toca dormir
-[02:30:50] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[02:31:12] [Server thread/INFO]: [Not Secure] <Franceskko> y donde van
-[02:31:17] [Server thread/INFO]: [Not Secure] <KaraVit> Y
-[02:31:28] [Server thread/INFO]: [Not Secure] <KaraVit> Nomas tengo que cubrir mañana a 2 personas que no van al mercado donde trabaja mi ama
-[02:31:39] [Server thread/INFO]: [Not Secure] <Franceskko> efota
-[02:31:40] [Server thread/INFO]: [Not Secure] <KaraVit> nose si a la mañana o todo el dia
-[02:31:49] [Server thread/INFO]: [Not Secure] <KaraVit> Igual god
-[02:31:59] [Server thread/INFO]: [Not Secure] <Franceskko> cuanto te dan
-[02:32:00] [Server thread/INFO]: [Not Secure] <KaraVit> con lo que gane se va para apostar al madrid
-[02:32:05] [Server thread/INFO]: [Not Secure] <Franceskko> :|
-[02:32:06] [Server thread/INFO]: [Not Secure] <KaraVit> Y ni idea
-[02:32:11] [Server thread/INFO]: [Not Secure] <KaraVit> Mujajaja
-[02:32:15] [Server thread/INFO]: [Not Secure] <Franceskko> god
-[02:32:17] [Server thread/INFO]: [Not Secure] <Franceskko> buenoo
+[18:51:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:51:12] [main/INFO]: Compatibility level set to JAVA_21
+[18:51:12] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[18:51:12] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[18:51:12] [main/INFO]: Applying Nashorn fix
+[18:51:13] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:51:13] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[18:51:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:51:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:51:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[18:51:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:51:16] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18:51:19] [main/INFO]: Vanilla bootstrap took 5765 milliseconds
+[18:51:19] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[18:51:20] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[18:51:20] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[18:51:20] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[18:51:20] [main/ERROR]: No data fixer registered for artifacts:mimic
+[18:51:20] [main/INFO]: Loading Collective version 7.91.
+[18:51:20] [main/INFO]: YAaargh!
+[18:51:20] [main/INFO]: ExpandAbility here, who dis?
+[18:51:20] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[18:51:20] [main/INFO]: Loading Noisium.
+[18:51:20] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[18:51:20] [main/ERROR]: No data fixer registered for 
+[18:51:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[18:51:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[18:51:20] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[18:51:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[18:51:21] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:51:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:51:21] [main/INFO]: Found new data pack advancednetherite, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack artifacts, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack default_skill_trees, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack dungeons_arise, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack dungeons_arise_seven_seas, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack puffish_attributes, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
+[18:51:21] [main/INFO]: Found new data pack trinkets, loading it automatically
+[18:51:21] [pool-2-thread-1/INFO]: Config file artifacts/client.toml changed
+[18:51:22] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[18:51:22] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[18:51:22] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[18:51:22] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[18:51:22] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[18:51:23] [main/INFO]: Loaded 1522 recipes
+[18:51:23] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[18:51:23] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
+[18:51:23] [main/INFO]: Loaded 1634 advancements
+[18:51:23] [main/INFO]: Reloading grave shape (server)
+[18:51:23] [main/INFO]: Grave model and shape reload successful (server)
+[18:51:23] [main/INFO]: Reloading YIGD graveyard data (server)
+[18:51:23] [main/INFO]: Graveyard data successfully reloaded (server)
+[18:51:23] [main/INFO]: Reloading YIGD grave area overrides (server)
+[18:51:23] [main/INFO]: Grave area overrides successfully reloaded (server)
+[18:51:23] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
+[18:51:23] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 12.64 ms
+[18:51:23] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[18:51:23] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[18:51:23] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:51:23] [Server thread/INFO]: Loading properties
+[18:51:23] [Server thread/INFO]: Default game type: SURVIVAL
+[18:51:23] [Server thread/INFO]: Generating keypair
+[18:51:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:51:23] [Server thread/INFO]: Using epoll channel type
+[18:51:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:51:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:51:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:51:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:51:23] [Server thread/INFO]: Preparing level "world"
+[18:51:24] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[18:51:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:51:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:51:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:51:25] [Server thread/INFO]: Time elapsed: 1015 ms
+[18:51:25] [Server thread/INFO]: Done (1.490s)! For help, type "help"
+[18:51:25] [Server thread/WARN]: Dedicated server took 15.064 seconds to load
+[18:51:32] [Server thread/INFO]: Franceskko[/100.96.204.97:62348] logged in with entity id 37 at (10.049099907110941, 6.0, -498.59300741796983)
+[18:51:32] [Server thread/INFO]: Loading config from file...
+[18:51:32] [Server thread/INFO]: Franceskko joined the game
+[18:51:33] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[18:52:14] [Server thread/INFO]: Franceskko lost connection: Disconnected
+[18:52:14] [Server thread/INFO]: Franceskko left the game
+[18:53:52] [Server thread/INFO]: Franceskko[/100.96.204.97:62435] logged in with entity id 402 at (15.063034467964803, 6.0, -496.85783084853125)
+[18:53:52] [Server thread/INFO]: Loading config from file...
+[18:53:52] [Server thread/INFO]: Franceskko joined the game
+[18:53:54] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[18:54:19] [Server thread/INFO]: Franceskko lost connection: Disconnected
+[18:54:19] [Server thread/INFO]: Franceskko left the game
+[18:55:46] [Server thread/INFO]: Franceskko[/100.96.204.97:62520] logged in with entity id 712 at (14.305657529074093, 6.0, -498.31339994549813)
+[18:55:46] [Server thread/INFO]: Loading config from file...
+[18:55:46] [Server thread/INFO]: Franceskko joined the game
+[18:55:47] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[18:55:56] [Server thread/INFO]: Franceskko lost connection: Disconnected
+[18:55:56] [Server thread/INFO]: Franceskko left the game
+[18:57:47] [Server thread/INFO]: Franceskko[/100.96.204.97:62538] logged in with entity id 1009 at (14.305657529074093, 6.0, -498.31339994549813)
+[18:57:47] [Server thread/INFO]: Loading config from file...
+[18:57:47] [Server thread/INFO]: Franceskko joined the game
+[18:57:47] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[19:00:58] [Server thread/INFO]: [Franceskko: Gave 1 [Vault] to Franceskko]
+[19:00:59] [Server thread/INFO]: [Franceskko: Gave 1 [Vault] to Franceskko]
