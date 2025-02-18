@@ -439,6 +439,7 @@
     "criteria": {
       "cooked_porkchop": "2025-02-17 01:26:07 +0000",
       "bread": "2025-02-17 01:50:10 +0000",
+      "rotten_flesh": "2025-02-18 02:00:35 +0000",
       "enchanted_golden_apple": "2025-02-17 01:54:54 +0000",
       "glow_berries": "2025-02-17 01:54:15 +0000",
       "sweet_berries": "2025-02-17 01:34:39 +0000",
@@ -1678,9 +1679,27 @@
     },
     "done": true
   },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:ashen": "2025-02-18 02:02:47 +0000"
+    },
+    "done": false
+  },
   "travelersbackpack:recipes/misc/backpack_tank": {
     "criteria": {
       "has_iron": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2025-02-18 02:00:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-02-18 02:00:39 +0000"
     },
     "done": true
   },
@@ -1717,6 +1736,18 @@
   "travelersbackpack:recipes/misc/iron": {
     "criteria": {
       "has_iron_ingot": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-02-18 02:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-02-18 02:02:47 +0000"
     },
     "done": true
   },
@@ -1780,6 +1811,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-02-18 02:00:39 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/gold_tier_upgrade": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 01:49:49 +0000"
@@ -1789,6 +1826,12 @@
   "advancednetherite:recipes/misc/netherite_iron_ingot": {
     "criteria": {
       "has_minecraft:iron_ingot": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig": {
+    "criteria": {
+      "has_porkchop": "2025-02-18 02:00:39 +0000"
     },
     "done": true
   },
