@@ -697,15 +697,19 @@
       "minecraft:pillager": "2025-02-18 02:11:36 +0000",
       "minecraft:skeleton": "2025-02-17 01:03:14 +0000",
       "minecraft:phantom": "2025-02-18 02:06:15 +0000",
+      "minecraft:witch": "2025-02-18 02:46:47 +0000",
+      "minecraft:husk": "2025-02-18 02:18:12 +0000",
       "minecraft:breeze": "2025-02-17 02:05:36 +0000",
+      "minecraft:vindicator": "2025-02-18 02:47:55 +0000",
       "minecraft:enderman": "2025-02-17 01:44:52 +0000",
       "minecraft:silverfish": "2025-02-17 02:16:59 +0000",
       "minecraft:stray": "2025-02-17 02:05:15 +0000",
       "minecraft:spider": "2025-02-17 01:26:28 +0000",
       "minecraft:zombie": "2025-02-17 01:25:42 +0000",
+      "minecraft:creeper": "2025-02-18 02:40:40 +0000",
       "minecraft:zombie_villager": "2025-02-18 01:57:32 +0000",
-      "minecraft:husk": "2025-02-18 02:18:12 +0000",
-      "minecraft:slime": "2025-02-17 02:23:51 +0000"
+      "minecraft:slime": "2025-02-17 02:23:51 +0000",
+      "minecraft:evoker": "2025-02-18 02:48:34 +0000"
     },
     "done": false
   },
@@ -1831,9 +1835,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 02:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
     },
     "done": true
   },
@@ -1903,6 +1919,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/spider": {
+    "criteria": {
+      "has_string": "2025-02-18 02:41:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2025-02-18 02:20:37 +0000"
@@ -1924,6 +1946,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-02-18 02:25:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
     },
     "done": true
   },
@@ -1957,15 +1985,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2025-02-18 02:21:12 +0000"
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/redstone": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-02-18 02:20:37 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/iron_smithing": {
+    "criteria": {
+      "has_iron": "2025-02-18 02:45:03 +0000"
     },
     "done": true
   },
@@ -1999,6 +2045,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-02-18 02:26:44 +0000"
@@ -2014,6 +2066,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 02:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
     },
     "done": true
   },
@@ -2086,6 +2144,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 02:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-02-18 02:47:23 +0000"
     },
     "done": true
   },
