@@ -12,6 +12,7 @@
       "minecraft:dark_forest": "2025-02-18 19:43:12 +0000",
       "minecraft:forest": "2025-02-18 02:51:42 +0000",
       "minecraft:taiga": "2025-02-17 00:43:59 +0000",
+      "minecraft:sparse_jungle": "2025-02-18 20:14:47 +0000",
       "minecraft:river": "2025-02-18 02:04:57 +0000",
       "minecraft:snowy_plains": "2025-02-17 01:38:01 +0000",
       "minecraft:lush_caves": "2025-02-17 00:56:07 +0000",
@@ -2323,13 +2324,74 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
-      "minecraft:pale": "2025-02-18 19:58:54 +0000"
+      "minecraft:pale": "2025-02-18 19:58:54 +0000",
+      "minecraft:woods": "2025-02-18 20:15:36 +0000"
     },
     "done": false
   },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-02-18 19:58:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2025-02-18 20:13:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2025-02-18 20:13:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2025-02-18 20:13:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/purple_sleeping_bag": {
+    "criteria": {
+      "has_purple_wool": "2025-02-18 20:13:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 20:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 20:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 20:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 20:13:17 +0000"
+    },
+    "done": true
+  },
+  "mob-ai-tweaks:orphan_obliterator": {
+    "criteria": {
+      "baby_zombie": "2025-02-18 20:19:53 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-02-18 20:24:30 +0000"
     },
     "done": true
   },
