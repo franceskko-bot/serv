@@ -397,3 +397,55 @@
 [02:49:06] [Server thread/INFO]: [Not Secure] <KaraVit> chetuki
 [02:49:09] [Server thread/INFO]: [Not Secure] <KaraVit> nos mataron a los aldeanos
 [02:49:51] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 205.000000, 64.000000, -3223.000000]
+[02:52:26] [Server thread/INFO]: [KaraVit: Teleported KaraVit to -263.000000, 71.000000, -2633.000000]
+[02:52:33] [Worker-Main-1/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
+[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-204}
+[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-320, y=-45, z=-203}
+[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-202}
+[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
+[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
+[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
+[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
+[02:52:42] [Server thread/INFO]: [Not Secure] <KaraVit> Uff
+[02:52:44] [Server thread/INFO]: [Not Secure] <KaraVit> Goty
+[02:52:47] [Server thread/INFO]: [Not Secure] <KaraVit> La madera rosa
+[02:52:58] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
+[02:53:00] [Server thread/INFO]: [Not Secure] <Franceskko> re puto
+[02:53:03] [Server thread/INFO]: [Not Secure] <KaraVit> ??
+[02:53:22] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 133.000000, 64.000000, -3315.000000]
+[02:54:44] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
+[02:55:38] [Server thread/INFO]: [Not Secure] <Franceskko> wtf
+[02:55:45] [Server thread/INFO]: [Not Secure] <Franceskko> habia una araña invisible
+[02:56:03] [Server thread/INFO]: [Not Secure] <KaraVit> Suele pasar
+[02:56:05] [Server thread/INFO]: [Not Secure] <KaraVit> que tienen efectos
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
+[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
+[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
+[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
+[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
+[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
+[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
+[02:58:13] [Worker-Main-1/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
+[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}

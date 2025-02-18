@@ -7,15 +7,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:frozen_river": "2025-02-17 01:19:56 +0000",
+      "minecraft:dark_forest": "2025-02-18 02:58:38 +0000",
+      "minecraft:forest": "2025-02-18 02:57:36 +0000",
       "minecraft:taiga": "2025-02-17 01:20:13 +0000",
-      "minecraft:deep_dark": "2025-02-17 01:49:52 +0000",
-      "minecraft:grove": "2025-02-17 01:52:43 +0000",
-      "minecraft:meadow": "2025-02-18 02:24:44 +0000",
+      "minecraft:river": "2025-02-18 02:51:54 +0000",
       "minecraft:snowy_plains": "2025-02-17 01:26:13 +0000",
       "minecraft:lush_caves": "2025-02-17 01:34:57 +0000",
       "minecraft:dripstone_caves": "2025-02-17 01:36:52 +0000",
       "minecraft:snowy_taiga": "2025-02-17 01:19:18 +0000",
+      "minecraft:frozen_river": "2025-02-17 01:19:56 +0000",
+      "minecraft:deep_dark": "2025-02-17 01:49:52 +0000",
+      "minecraft:cherry_grove": "2025-02-18 02:52:38 +0000",
+      "minecraft:sunflower_plains": "2025-02-18 02:53:25 +0000",
+      "minecraft:grove": "2025-02-17 01:52:43 +0000",
+      "minecraft:meadow": "2025-02-18 02:24:44 +0000",
+      "minecraft:birch_forest": "2025-02-18 02:57:48 +0000",
       "minecraft:plains": "2025-02-18 02:24:47 +0000"
     },
     "done": false
@@ -1701,6 +1707,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-02-18 02:12:28 +0000"
@@ -1725,15 +1737,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2025-02-18 02:16:59 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2025-02-18 02:55:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-02-18 02:36:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
     },
     "done": true
   },
@@ -1746,6 +1782,12 @@
   "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
     "criteria": {
       "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-02-18 02:57:47 +0000"
     },
     "done": true
   },
@@ -1839,9 +1881,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
     "criteria": {
       "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 02:57:49 +0000"
     },
     "done": true
   },
@@ -1929,6 +1983,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 02:57:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/blank_upgrade": {
     "criteria": {
       "has_leather": "2025-02-18 01:49:49 +0000"
@@ -1941,9 +2007,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
       "has_ender_pearl": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-02-18 02:57:47 +0000"
     },
     "done": true
   },
@@ -1974,6 +2052,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-02-18 02:20:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 02:57:49 +0000"
     },
     "done": true
   },
@@ -2025,6 +2109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-02-18 02:57:49 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/bookshelf": {
     "criteria": {
       "has_book": "2025-02-18 02:12:28 +0000"
@@ -2034,6 +2124,12 @@
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2025-02-18 02:55:23 +0000"
     },
     "done": true
   },
