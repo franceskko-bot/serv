@@ -11,10 +11,12 @@
       "minecraft:taiga": "2025-02-17 01:20:13 +0000",
       "minecraft:deep_dark": "2025-02-17 01:49:52 +0000",
       "minecraft:grove": "2025-02-17 01:52:43 +0000",
+      "minecraft:meadow": "2025-02-18 02:24:44 +0000",
       "minecraft:snowy_plains": "2025-02-17 01:26:13 +0000",
       "minecraft:lush_caves": "2025-02-17 01:34:57 +0000",
       "minecraft:dripstone_caves": "2025-02-17 01:36:52 +0000",
-      "minecraft:snowy_taiga": "2025-02-17 01:19:18 +0000"
+      "minecraft:snowy_taiga": "2025-02-17 01:19:18 +0000",
+      "minecraft:plains": "2025-02-18 02:24:47 +0000"
     },
     "done": false
   },
@@ -1754,6 +1756,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-02-18 02:21:57 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/gold": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 01:49:49 +0000"
@@ -1784,6 +1792,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-02-18 02:27:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-02-18 02:16:59 +0000"
@@ -1799,6 +1813,12 @@
   "travelersbackpack:recipes/misc/horse": {
     "criteria": {
       "has_leather": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-02-18 02:27:37 +0000"
     },
     "done": true
   },
@@ -1898,6 +1918,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-02-18 02:20:14 +0000"
+    },
+    "done": true
+  },
   "advancednetherite:recipes/misc/netherite_diamond_ingot": {
     "criteria": {
       "has_minecraft:diamond": "2025-02-18 01:49:49 +0000"
@@ -1985,6 +2011,12 @@
   "travelersbackpack:recipes/misc/gold_smithing": {
     "criteria": {
       "has_gold": "2025-02-18 02:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-02-18 02:23:16 +0000"
     },
     "done": true
   },
