@@ -1,0 +1,12 @@
+{
+  "hordeCompositions": [
+    {
+      "mobTypes": [
+        {
+          "id": "minecraft:zombie",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

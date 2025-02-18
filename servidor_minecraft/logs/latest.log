@@ -1,7 +1,7 @@
-[01:49:18] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[01:49:18] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[20:07:27] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[20:07:27] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[01:49:18] [main/INFO]: Loading 89 mods:
+[20:07:28] [main/INFO]: Loading 97 mods:
 	- advancednetherite 2.1.6-1.21
 	- architectury 13.0.8
 	- artifacts 12.0.6
@@ -22,10 +22,12 @@
 	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
 	- collective 7.91
+	- coroutil 1.21.0-1.3.7
 	- default_skill_trees 1.1
 	- doubledoors 6.1
 	- dungeons_arise 2.1.60
 	- dungeons_arise_seven_seas 1.0.3
+	- easymagic 21.0.4
 	- explorify 1.6.2
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
@@ -79,17 +81,24 @@
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.0.0
+	- forgeconfigapiport 21.0.8
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- giantspawn 5.3
 	- java 21
 	- krypton 0.2.8
 	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
 	- lithium 0.13.1
+	- mebahel-zombie-horde 1.0.7-1.21
 	- minecraft 1.21
+	- mob-ai-tweaks 1.6.0
 	- modernfix 5.19.1+mc1.21
 	- mr_dungeons_andtavernsendcastlestandalone 1-v1.1
 	- noisium 2.3.0+mc1.21-1.21.1
 	- puffish_attributes 0.7.2
 	   \-- mixinextras 0.4.1
 	- puffish_skills 0.14.7
+	- puzzleslib 21.0.28
 	- servercore 1.5.4+1.21
 	   |-- fabric-permissions-api-v0 0.3.1
 	   |-- org_yaml_snakeyaml 2.2
@@ -98,6 +107,7 @@
 	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
 	- travelersbackpack 10.1.15
 	- trinkets 3.10.0
+	- undeadnights 0.9.5-Fabric-mc1.21
 	- waystones 21.1.10
 	- yigd 2.4.14
 	   |-- fabric-permissions-api-v0 0.3.1
@@ -105,347 +115,153 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[01:49:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:49:18] [main/INFO]: Compatibility level set to JAVA_21
-[01:49:19] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[01:49:19] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[01:49:19] [main/INFO]: Applying Nashorn fix
-[01:49:20] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[01:49:20] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[01:49:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[01:49:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[01:49:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[01:49:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[01:49:25] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[01:49:29] [main/INFO]: Vanilla bootstrap took 7600 milliseconds
-[01:49:29] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[01:49:29] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[01:49:29] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[01:49:29] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[01:49:29] [main/ERROR]: No data fixer registered for artifacts:mimic
-[01:49:30] [main/INFO]: Loading Collective version 7.91.
-[01:49:30] [main/INFO]: YAaargh!
-[01:49:30] [main/INFO]: ExpandAbility here, who dis?
-[01:49:30] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[01:49:30] [main/INFO]: Loading Noisium.
-[01:49:30] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[01:49:30] [main/ERROR]: No data fixer registered for 
-[01:49:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[01:49:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[01:49:31] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[01:49:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[01:49:31] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[01:49:31] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:49:32] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[01:49:32] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[01:49:32] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[01:49:33] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[01:49:33] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[01:49:34] [main/INFO]: Loaded 1522 recipes
-[01:49:34] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
-[01:49:34] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
-[01:49:34] [main/INFO]: Loaded 1634 advancements
-[01:49:34] [main/INFO]: Reloading grave shape (server)
-[01:49:34] [main/INFO]: Grave model and shape reload successful (server)
-[01:49:34] [main/INFO]: Reloading YIGD graveyard data (server)
-[01:49:34] [main/INFO]: Graveyard data successfully reloaded (server)
-[01:49:34] [main/INFO]: Reloading YIGD grave area overrides (server)
-[01:49:34] [main/INFO]: Grave area overrides successfully reloaded (server)
-[01:49:34] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
-[01:49:34] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 16.43 ms
-[01:49:34] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[01:49:34] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[01:49:34] [Server thread/INFO]: Starting minecraft server version 1.21
-[01:49:34] [Server thread/INFO]: Loading properties
-[01:49:34] [Server thread/INFO]: Default game type: SURVIVAL
-[01:49:34] [Server thread/INFO]: Generating keypair
-[01:49:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:49:34] [Server thread/INFO]: Using epoll channel type
-[01:49:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:49:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:49:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:49:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:49:35] [Server thread/INFO]: Preparing level "world"
-[01:49:35] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[01:49:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:49:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:37] [Server thread/INFO]: Time elapsed: 1453 ms
-[01:49:37] [Server thread/INFO]: Done (2.100s)! For help, type "help"
-[01:49:37] [Server thread/WARN]: Dedicated server took 22.872 seconds to load
-[01:49:48] [Server thread/INFO]: Franceskko[/100.96.204.97:63275] logged in with entity id 37 at (-301.1723707840448, 64.45740964719172, -1336.3286071632792)
-[01:49:48] [Server thread/INFO]: Loading config from file...
-[01:49:48] [Server thread/INFO]: Franceskko joined the game
-[01:49:49] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
-[01:49:49] [Server thread/INFO]: KaraVit[/100.109.49.4:63647] logged in with entity id 170 at (15.1306824366096, 6.0, -499.1308253893848)
-[01:49:49] [Server thread/INFO]: Loading config from file...
-[01:49:49] [Server thread/INFO]: KaraVit joined the game
-[01:49:51] [Server thread/INFO]: Priority overwritten for player KaraVit. Claiming: GRAVE / Robbing: INVENTORY
-[01:49:59] [Server thread/INFO]: [Not Secure] <KaraVit> yy
-[01:50:00] [Server thread/INFO]: [Not Secure] <KaraVit> chorro
-[01:50:04] [Server thread/INFO]: [Franceskko: Set own game mode to Survival Mode]
-[01:50:06] [Server thread/INFO]: [Not Secure] <KaraVit> que te salio en mi llave
-[01:50:07] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[01:50:35] [Server thread/INFO]: [Franceskko: The difficulty has been set to Hard]
-[01:50:38] [Server thread/INFO]: [Not Secure] <KaraVit> jeje god
-[01:50:40] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
-[01:51:00] [Server thread/INFO]: [Not Secure] <Franceskko> qlok
-[01:51:05] [Server thread/INFO]: [Not Secure] <Franceskko> apreta la k
-[01:51:06] [Server thread/INFO]: [Not Secure] <KaraVit> pusiste algo god
-[01:51:07] [Server thread/INFO]: [Not Secure] <Franceskko> :d
-[01:51:13] [Server thread/INFO]: [Not Secure] <Franceskko> es goty
-[01:51:16] [Server thread/INFO]: [Not Secure] <KaraVit> bruh
-[01:51:18] [Server thread/INFO]: [Not Secure] <KaraVit> como consigo puntos
-[01:51:25] [Server thread/INFO]: [Not Secure] <Franceskko> matando bichos
-[01:51:29] [Server thread/INFO]: [Not Secure] <KaraVit> Jeje god
-[01:51:45] [Server thread/INFO]: [Not Secure] <KaraVit> sale invacion
-[01:51:54] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[01:51:58] [Server thread/INFO]: [Not Secure] <Franceskko> nos pijean
-[01:52:09] [Server thread/INFO]: [Not Secure] <KaraVit> a
-[01:52:11] [Server thread/INFO]: [Not Secure] <KaraVit> falta encantarnos
-[01:52:15] [Server thread/INFO]: [Not Secure] <KaraVit> cuanta exp tienes
-[01:52:20] [Server thread/INFO]: [Not Secure] <Franceskko> 27
-[01:52:23] [Server thread/INFO]: [Not Secure] <KaraVit> boe
-[01:52:25] [Server thread/INFO]: [Not Secure] <KaraVit> siempre me copiaba
-[01:52:30] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿¿
-[01:52:42] [Server thread/INFO]: [Not Secure] <KaraVit> y que mas pusiste
-[01:52:44] [Server thread/INFO]: [Not Secure] <KaraVit> mochilas o algo
-[01:52:49] [Server thread/INFO]: [Not Secure] <Franceskko> ci
-[01:53:01] [Server thread/INFO]: [Not Secure] <Franceskko> el dungeons
-[01:53:04] [Server thread/INFO]: [Not Secure] <Franceskko> y poco mas
-[01:53:22] [Server thread/INFO]: [Not Secure] <Franceskko> a
-[01:53:24] [Server thread/INFO]: [Not Secure] <Franceskko> el goty
-[01:53:26] [Server thread/INFO]: [Not Secure] <Franceskko> me olvide
-[01:53:34] [Server thread/INFO]: [Not Secure] <Franceskko> artifactsgod
-[01:53:39] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[01:54:09] [Server thread/INFO]: [Not Secure] <Franceskko> che la dungeon esa es god
-[01:54:17] [Server thread/INFO]: [Not Secure] <Franceskko> para farmear puntos de habilidad
-[01:54:25] [Server thread/INFO]: [Not Secure] <KaraVit> y true
-[01:54:37] [Server thread/INFO]: [Not Secure] <Franceskko> efota trolleaste
-[01:54:52] [Server thread/INFO]: [Not Secure] <KaraVit> che look
-[01:55:00] [Server thread/INFO]: [Not Secure] <Franceskko> esa kk
-[01:55:13] [Server thread/INFO]: [Not Secure] <KaraVit> quie kk
-[01:55:19] [Server thread/INFO]: [Not Secure] <KaraVit> como subimos
-[01:55:20] [Server thread/INFO]: [Not Secure] <KaraVit> mujajaja
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-46, z=-151}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-46, z=-143}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-185, y=-46, z=-142}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-291, y=-57, z=-315}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-292, y=-57, z=-313}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-294, y=-57, z=-313}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-296, y=-57, z=-313}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-295, y=-57, z=-315}
-[01:55:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-293, y=-57, z=-315}
-[01:56:13] [Server thread/INFO]: [Not Secure] <Franceskko> tenis arena
-[01:56:15] [Server thread/INFO]: [Not Secure] <Franceskko> :p
-[01:56:17] [Server thread/INFO]: [Not Secure] <KaraVit> nels
-[01:56:21] [Server thread/INFO]: [Not Secure] <Franceskko> :;
-[01:56:26] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-176, y=-50, z=-133}
-[01:56:26] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-50, z=-135}
-[01:57:43] [Server thread/INFO]: [Not Secure] <KaraVit> uf
-[01:57:46] [Server thread/INFO]: [Not Secure] <KaraVit> pusiste lo de los sonidos
-[01:57:55] [Server thread/INFO]: [Not Secure] <Franceskko> y obvio
-[01:58:51] [Server thread/INFO]: [Not Secure] <Franceskko> uf atack speed
-[01:58:58] [Server thread/INFO]: [Not Secure] <KaraVit> trolie y aumente el del arco sin ver
-[01:59:01] [Server thread/INFO]: [Not Secure] <Franceskko> :|
-[01:59:29] [Server thread/INFO]: [Not Secure] <Franceskko> chetuki
-[01:59:33] [Server thread/INFO]: [Not Secure] <Franceskko> no termina mas este bioma
-[02:01:25] [Server thread/INFO]: [Not Secure] <Franceskko> tenis cama
-[02:01:29] [Server thread/INFO]: [Not Secure] <KaraVit> Nopi
-[02:01:31] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[02:01:32] [Server thread/INFO]: [Not Secure] <KaraVit> eso quiero pa la mochi
-[02:02:47] [Server thread/INFO]: KaraVit has made the advancement [Best Friends Forever]
-[02:02:48] [Server thread/INFO]: [Not Secure] <Franceskko> se farmean bastante rapido los puntos
-[02:03:02] [Server thread/INFO]: [Not Secure] <KaraVit> y full izi
-[02:03:05] [Server thread/INFO]: [Not Secure] <KaraVit> estan rotitos igual
-[02:03:26] [Server thread/INFO]: [Not Secure] <Franceskko> yy
-[02:03:30] [Server thread/INFO]: [Not Secure] <Franceskko> sale raid
-[02:03:40] [Server thread/INFO]: [Not Secure] <KaraVit> y
-[02:03:42] [Server thread/INFO]: [Not Secure] <KaraVit> dsp de encantarnos pa
-[02:03:45] [Server thread/INFO]: [Not Secure] <KaraVit> ai vengo
-[02:03:45] [Server thread/INFO]: [Not Secure] <Franceskko> rre que mi armadura esta en la b
-[02:04:16] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[02:04:16] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[02:04:16] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-193, y=-45, z=-211}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-210}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-49, z=-219}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-211}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-191, y=-45, z=-211}
-[02:04:21] [Worker-Main-2/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-201}
-[02:04:21] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-58, z=-205}
-[02:04:26] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:32] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:34] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:34] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:37] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:37] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:04:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:05:58] [Server thread/INFO]: [Not Secure] <KaraVit> Y la mia igual
-[02:06:03] [Server thread/INFO]: [Not Secure] <KaraVit> y no te quedo ams diamonds
-[02:08:11] [Server thread/INFO]: [Franceskko: Gave 1 [Standard Traveler's Backpack] to Franceskko]
-[02:08:16] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
-[02:08:27] [Server thread/INFO]: [Not Secure] <Franceskko> :p
-[02:08:31] [Server thread/INFO]: [Not Secure] <KaraVit> pase una
-[02:08:35] [Server thread/INFO]: [Not Secure] <Franceskko> pa q
-[02:08:43] [Server thread/INFO]: [Not Secure] <KaraVit> asi se la paso a abi
-[02:09:30] [Server thread/INFO]: [Franceskko: Gave 1 [Gold Traveler's Backpack] to KaraVit]
-[02:12:13] [Server thread/INFO]: [Not Secure] <KaraVit> che god
-[02:12:18] [Server thread/INFO]: [Not Secure] <KaraVit> encontre dungeon con a lot de librerias
-[02:12:37] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[02:14:39] [Server thread/INFO]: [Not Secure] <Franceskko> qlok
-[02:14:42] [Server thread/INFO]: [Not Secure] <Franceskko> donde andai
-[02:14:57] [Server thread/INFO]: [Not Secure] <KaraVit> en la de los zombies ando
-[02:15:03] [Server thread/INFO]: [Not Secure] <Franceskko> ¿
-[02:15:24] [Server thread/INFO]: [Not Secure] <Franceskko> che muy op capaz
-[02:15:28] [Server thread/INFO]: [Not Secure] <Franceskko> las habilidades
-[02:15:44] [Server thread/INFO]: [Not Secure] <KaraVit> Sep
-[02:15:47] [Server thread/INFO]: [Not Secure] <KaraVit> Mepa qeu sep
-[02:15:58] [Server thread/INFO]: [Not Secure] <KaraVit> encima tenemos los artefactos
-[02:16:03] [Server thread/INFO]: [Not Secure] <Franceskko> habra que sacarlas
-[02:16:07] [Server thread/INFO]: [Not Secure] <Franceskko> :,d
-[02:18:06] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[02:18:23] [Server thread/INFO]: [Not Secure] <Franceskko> rre gil
-[02:18:28] [Server thread/INFO]: [Not Secure] <Franceskko> se ponia a farmear puntos
-[02:18:34] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[02:18:36] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh si la vamols a sacar
-[02:19:00] [Server thread/INFO]: Franceskko was slain by Husk
-[02:19:00] [Server thread/INFO]: Created new backpack backup file for Franceskko with unique ID travelersbackpack.standard_18.02.2025-02.19.00.dat
-[02:19:04] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[02:19:04] [Server thread/INFO]: [Not Secure] <KaraVit> ¿?
-[02:19:10] [Server thread/INFO]: [Not Secure] <KaraVit> como se moria
-[02:19:12] [Server thread/INFO]: [Not Secure] <Franceskko> habia 5 abajo
-[02:19:34] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 23.500000, 123.000000, -2208.500000]
-[02:19:54] [Server thread/INFO]: Franceskko claimed a grave belonging to Franceskko at 23, 103, -2211, minecraft:overworld
-[02:20:24] [Server thread/INFO]: [Not Secure] <KaraVit> consegui chingo de exp
-[02:20:25] [Server thread/INFO]: [Not Secure] <KaraVit> 33 ia
-[02:20:36] [Server thread/INFO]: [Not Secure] <KaraVit> tenes obsidiana?
-[02:20:53] [Server thread/INFO]: [Not Secure] <Franceskko> no
-[02:21:34] [Server thread/INFO]: [Not Secure] <KaraVit> che ni una aldea ademas
-[02:21:43] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[02:21:47] [Server thread/INFO]: [Not Secure] <Franceskko> hay una adelante
-[02:22:05] [Server thread/INFO]: [Not Secure] <KaraVit> pos vamos
-[02:22:11] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[02:22:47] [Server thread/INFO]: [Not Secure] <KaraVit> where
-[02:23:16] [Server thread/INFO]: KaraVit has made the advancement [Who Needs Rockets?]
-[02:23:28] [Server thread/INFO]: [Not Secure] <Franceskko> beuh
-[02:23:37] [Server thread/INFO]: Franceskko has made the advancement [Who Needs Rockets?]
-[02:23:54] [Server thread/INFO]: [Not Secure] <KaraVit> a mal
-[02:23:56] [Server thread/INFO]: [Not Secure] <KaraVit> no tenemos obsi
-[02:26:12] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 50.000000, 63.000000, -2739.000000]
-[02:26:42] [Server thread/WARN]: KaraVit moved too quickly! 4.742946660390174,-5.063084373988346,7.4319560029834975
-[02:26:44] [Server thread/INFO]: Franceskko has made the advancement [Ice Bucket Challenge]
-[02:26:54] [Server thread/INFO]: [Not Secure] <KaraVit> jejegod
-[02:28:58] [Server thread/INFO]: [Not Secure] <Franceskko> chetuki
-[02:29:03] [Server thread/INFO]: [Not Secure] <Franceskko> estuve trolleando
-[02:29:07] [Server thread/INFO]: [Not Secure] <KaraVit> ¿¿
-[02:29:14] [Server thread/INFO]: [Not Secure] <Franceskko> tenia el vsycn activado
-[02:29:20] [Server thread/INFO]: [Not Secure] <Franceskko> con razon me iba rarete
-[02:29:21] [Server thread/INFO]: [Not Secure] <KaraVit> Mujaja
-[02:29:33] [Server thread/INFO]: [Not Secure] <Franceskko> che alto bug ese
-[02:29:41] [Server thread/INFO]: [Not Secure] <KaraVit> Y
-[02:29:44] [Server thread/INFO]: [Not Secure] <KaraVit> Ya es raro que lo sea
-[02:29:49] [Server thread/INFO]: [Not Secure] <KaraVit> Che y cuanto te falta
-[02:29:51] [Server thread/INFO]: [Not Secure] <KaraVit> ando waiteando
-[02:31:38] [Server thread/INFO]: [Not Secure] <KaraVit> ;(
-[02:31:55] [Server thread/INFO]: [Not Secure] <Franceskko> ¿
-[02:32:01] [Server thread/INFO]: [Not Secure] <KaraVit> ;(
-[02:32:08] [Server thread/INFO]: [Not Secure] <KaraVit> Im waiting you
-[02:32:17] [Server thread/INFO]: [Not Secure] <Franceskko> ??
-[02:32:19] [Server thread/INFO]: [Not Secure] <Franceskko> pa q
-[02:32:24] [Server thread/INFO]: [Not Secure] <KaraVit> Y pense que fuiste por la obsi
-[02:32:36] [Server thread/INFO]: [Not Secure] <Franceskko> jijo
-[02:32:42] [Server thread/INFO]: [Not Secure] <Franceskko> estoy en una dungeon
-[02:32:43] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[02:32:48] [Server thread/INFO]: [Not Secure] <KaraVit> epico
-[02:33:07] [Server thread/INFO]: [Not Secure] <Franceskko> tepeame
-[02:33:17] [Server thread/INFO]: [KaraVit: Teleported Franceskko to KaraVit]
-[02:34:12] [Server thread/INFO]: [Not Secure] <KaraVit> cheto
-[02:34:14] [Server thread/INFO]: [Not Secure] <KaraVit> alta kk
-[02:34:24] [Server thread/INFO]: [Not Secure] <Franceskko> efe
-[02:34:27] [Server thread/INFO]: [Not Secure] <Franceskko> cierto que mori
-[02:34:29] [Server thread/INFO]: [Not Secure] <Franceskko> :,d
-[02:34:32] [Server thread/INFO]: KaraVit has made the advancement [Enchanter]
-[02:34:47] [Server thread/INFO]: Franceskko has made the advancement [Enchanter]
-[02:34:55] [Server thread/INFO]: [Not Secure] <KaraVit> na
-[02:34:57] [Server thread/INFO]: [Not Secure] <KaraVit> una garcha total
-[02:35:31] [Server thread/INFO]: [Not Secure] <Franceskko> dormi
-[02:36:15] [Server thread/INFO]: [Not Secure] <Franceskko> chetukii
-[02:36:22] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[02:36:33] [Server thread/INFO]: [Not Secure] <KaraVit> teni
-[02:40:01] [Server thread/INFO]: KaraVit was blown up by Creeper
-[02:40:01] [Server thread/INFO]: Created new backpack backup file for KaraVit with unique ID travelersbackpack.gold_18.02.2025-02.40.01.dat
-[02:40:04] [Server thread/INFO]: [Not Secure] <KaraVit> :|
-[02:40:11] [Server thread/INFO]: [KaraVit: Teleported KaraVit to 231.500000, 109.000000, -2392.500000]
-[02:40:12] [Server thread/INFO]: KaraVit claimed a grave belonging to KaraVit at 231, 108, -2392, minecraft:overworld
-[02:40:20] [Server thread/INFO]: [Not Secure] <Franceskko> moria
-[02:40:30] [Server thread/INFO]: [Not Secure] <KaraVit> gg lvls
-[02:40:32] [Server thread/INFO]: [Not Secure] <KaraVit> fue
-[02:40:35] [Server thread/INFO]: [Not Secure] <KaraVit> inicio la raid
-[02:42:15] [Server thread/INFO]: [Not Secure] <Franceskko> cheto
-[02:42:26] [Server thread/INFO]: [Not Secure] <KaraVit> k
-[02:42:34] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
-[02:42:37] [Server thread/INFO]: [Not Secure] <Franceskko> no tengo armadura
-[02:42:49] [Server thread/INFO]: KaraVit has made the advancement [Voluntary Exile]
-[02:43:58] [Server thread/INFO]: KaraVit has made the advancement [Ol' Betsy]
-[02:47:34] [Server thread/INFO]: Villager class_1646['Nitwit'/16864, l='ServerLevel[world]', x=192.70, y=116.00, z=-2469.90] died, message: 'Nitwit was slain by Vindicator'
-[02:47:36] [Server thread/INFO]: Villager class_1646['Farmer'/16866, l='ServerLevel[world]', x=192.51, y=116.00, z=-2470.58] died, message: 'Farmer was slain by Vindicator'
-[02:47:38] [Server thread/INFO]: Villager class_1646['Farmer'/16865, l='ServerLevel[world]', x=193.48, y=116.00, z=-2471.62] died, message: 'Farmer was slain by Vindicator'
-[02:49:06] [Server thread/INFO]: [Not Secure] <KaraVit> chetuki
-[02:49:09] [Server thread/INFO]: [Not Secure] <KaraVit> nos mataron a los aldeanos
-[02:49:51] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 205.000000, 64.000000, -3223.000000]
-[02:52:26] [Server thread/INFO]: [KaraVit: Teleported KaraVit to -263.000000, 71.000000, -2633.000000]
-[02:52:33] [Worker-Main-1/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-204}
-[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-320, y=-45, z=-203}
-[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-202}
-[02:52:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[02:52:40] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[02:52:42] [Server thread/INFO]: [Not Secure] <KaraVit> Uff
-[02:52:44] [Server thread/INFO]: [Not Secure] <KaraVit> Goty
-[02:52:47] [Server thread/INFO]: [Not Secure] <KaraVit> La madera rosa
-[02:52:58] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿
-[02:53:00] [Server thread/INFO]: [Not Secure] <Franceskko> re puto
-[02:53:03] [Server thread/INFO]: [Not Secure] <KaraVit> ??
-[02:53:22] [Server thread/INFO]: [Franceskko: Teleported Franceskko to 133.000000, 64.000000, -3315.000000]
-[02:54:44] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
-[02:55:38] [Server thread/INFO]: [Not Secure] <Franceskko> wtf
-[02:55:45] [Server thread/INFO]: [Not Secure] <Franceskko> habia una araña invisible
-[02:56:03] [Server thread/INFO]: [Not Secure] <KaraVit> Suele pasar
-[02:56:05] [Server thread/INFO]: [Not Secure] <KaraVit> que tienen efectos
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
-[02:58:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
-[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
-[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
-[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
-[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
-[02:58:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
-[02:58:13] [Worker-Main-1/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
-[02:58:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}
+[20:07:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:07:28] [main/INFO]: Compatibility level set to JAVA_21
+[20:07:28] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:07:28] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:07:28] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[20:07:28] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[20:07:28] [main/INFO]: Applying Nashorn fix
+[20:07:29] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:07:29] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[20:07:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:07:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:07:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[20:07:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:07:33] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:07:33] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:07:37] [main/INFO]: Vanilla bootstrap took 6668 milliseconds
+[20:07:37] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[20:07:37] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[20:07:37] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[20:07:37] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[20:07:37] [main/ERROR]: No data fixer registered for artifacts:mimic
+[20:07:37] [main/INFO]: Loading Collective version 7.91.
+[20:07:37] [main/INFO]: fabric loader environment detected
+[20:07:37] [main/INFO]: YAaargh!
+[20:07:37] [main/INFO]: Constructing common components for easymagic:main
+[20:07:37] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[20:07:37] [main/INFO]: ExpandAbility here, who dis?
+[20:07:37] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[20:07:37] [main/INFO]: [Mebahel's Zombie Horde] Registering zombie horde spawning for mebahel-zombie-horde.
+[20:07:37] [main/INFO]: [Mebahel's Zombie Horde] Initialization complete.
+[20:07:37] [main/INFO]: Loading Noisium.
+[20:07:38] [main/INFO]: Constructing common components for puzzleslib:main
+[20:07:38] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[20:07:38] [main/ERROR]: No data fixer registered for 
+[20:07:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[20:07:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[20:07:38] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[20:07:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[20:07:38] [main/INFO]: Initializing Undead Nights Mod
+[20:07:38] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
+[20:07:38] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
+[20:07:38] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
+[20:07:38] [main/INFO]: Registering Sounds for undeadnights
+[20:07:38] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:07:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:07:40] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[20:07:40] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[20:07:40] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[20:07:40] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[20:07:40] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[20:07:41] [main/INFO]: Loaded 1522 recipes
+[20:07:41] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[20:07:41] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
+[20:07:41] [main/INFO]: Loaded 1647 advancements
+[20:07:41] [main/INFO]: Reloading grave shape (server)
+[20:07:41] [main/INFO]: Grave model and shape reload successful (server)
+[20:07:41] [main/INFO]: Reloading YIGD graveyard data (server)
+[20:07:41] [main/INFO]: Graveyard data successfully reloaded (server)
+[20:07:41] [main/INFO]: Reloading YIGD grave area overrides (server)
+[20:07:41] [main/INFO]: Grave area overrides successfully reloaded (server)
+[20:07:41] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
+[20:07:41] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 14.76 ms
+[20:07:41] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[20:07:41] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[20:07:41] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[20:07:41] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:07:41] [Server thread/INFO]: Loading properties
+[20:07:41] [Server thread/INFO]: Default game type: SURVIVAL
+[20:07:41] [Server thread/INFO]: Generating keypair
+[20:07:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:07:42] [Server thread/INFO]: Using epoll channel type
+[20:07:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:07:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:07:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:07:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:07:42] [Server thread/INFO]: Preparing level "world"
+[20:07:42] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[20:07:42] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Loaded difficulty level for world minecraft:overworld: 1
+[20:07:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:07:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:07:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:07:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:07:43] [Server thread/INFO]: Time elapsed: 1197 ms
+[20:07:43] [Server thread/INFO]: Done (1.636s)! For help, type "help"
+[20:07:43] [Server thread/WARN]: Dedicated server took 17.184 seconds to load
+[20:07:48] [Server thread/INFO]: Franceskko[/100.96.204.97:65431] logged in with entity id 10 at (-1569.2216131493728, 67.0, -3719.3268616572013)
+[20:07:48] [Server thread/INFO]: Loading config from file...
+[20:07:48] [Server thread/INFO]: Franceskko joined the game
+[20:07:49] [Server thread/WARN]: Skipping Entity with id zombieawareness:scent
+[20:07:49] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[20:08:38] [Server thread/INFO]: KaraVit[/100.109.49.4:59230] logged in with entity id 998 at (-1662.2132592739554, 72.0, -3832.6622275456134)
+[20:08:38] [Server thread/INFO]: Loading config from file...
+[20:08:38] [Server thread/INFO]: KaraVit joined the game
+[20:08:38] [Server thread/INFO]: Priority overwritten for player KaraVit. Claiming: GRAVE / Robbing: INVENTORY
+[20:08:45] [Server thread/INFO]: [Not Secure] <Franceskko> ajips
+[20:08:48] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Server thread/INFO]: [Not Secure] <Franceskko> era ese mepa
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:48] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:53] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:53] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:53] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:53] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:53] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:53] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:53] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:53] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:54] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:54] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:08:56] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:swim_speed'
+[20:08:56] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:09:06] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[20:09:06] [Server thread/INFO]: No modded crossbow items have been found!
+[20:09:42] [Server thread/INFO]: [Not Secure] <KaraVit> opi
+[20:09:46] [Server thread/INFO]: [Not Secure] <KaraVit> la dungeon de la granja
+[20:10:19] [Server thread/INFO]: [Franceskko: Teleported Franceskko to KaraVit]
+[20:12:40] [Server thread/INFO]: [Not Secure] <KaraVit> wtf
+[20:13:23] [Server thread/INFO]: [Not Secure] <Franceskko> chetuki
+[20:13:46] [Server thread/INFO]: [Not Secure] <KaraVit> de cerca los pillagers te atacan con hacha
+[20:13:55] [Server thread/INFO]: KaraVit has made the advancement [Who's the Pillager Now?]
+[20:13:56] [Server thread/INFO]: [Not Secure] <Franceskko> yep
+[20:14:00] [Server thread/INFO]: [Not Secure] <KaraVit> god
+[20:14:44] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -1645.000000, 88.000000, -4014.000000]
+[20:15:23] [Server thread/INFO]: [Not Secure] <KaraVit> where you go
+[20:15:50] [Server thread/INFO]: [Not Secure] <Franceskko> y
+[20:15:57] [Server thread/INFO]: [Not Secure] <Franceskko> estoy viendo donde hacer la casa
+[20:15:59] [Server thread/INFO]: [Not Secure] <Franceskko> :p
+[20:16:15] [Server thread/INFO]: [Not Secure] <KaraVit> se hacia una casa
+[20:17:16] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -1651.000000, 72.000000, -3554.000000]
