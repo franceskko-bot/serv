@@ -7,15 +7,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-02-18 02:05:38 +0000",
       "minecraft:frozen_river": "2025-02-17 00:46:24 +0000",
       "minecraft:taiga": "2025-02-17 00:43:59 +0000",
       "minecraft:deep_dark": "2025-02-17 01:50:49 +0000",
+      "minecraft:river": "2025-02-18 02:04:57 +0000",
       "minecraft:grove": "2025-02-18 01:57:21 +0000",
       "minecraft:snowy_plains": "2025-02-17 01:38:01 +0000",
       "minecraft:lush_caves": "2025-02-17 00:56:07 +0000",
       "minecraft:dripstone_caves": "2025-02-17 01:36:41 +0000",
       "minecraft:snowy_taiga": "2025-02-17 00:42:31 +0000",
-      "minecraft:snowy_beach": "2025-02-17 00:54:30 +0000"
+      "minecraft:snowy_beach": "2025-02-17 00:54:30 +0000",
+      "minecraft:plains": "2025-02-18 02:04:38 +0000"
     },
     "done": false
   },
@@ -262,6 +265,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-02-17 01:08:40 +0000",
+      "golden_apple": "2025-02-18 02:17:53 +0000",
       "cooked_chicken": "2025-02-17 01:59:38 +0000",
       "honey_bottle": "2025-02-17 02:06:36 +0000",
       "cooked_mutton": "2025-02-17 01:30:01 +0000",
@@ -689,7 +693,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-18 02:11:36 +0000",
       "minecraft:skeleton": "2025-02-17 01:03:14 +0000",
+      "minecraft:phantom": "2025-02-18 02:06:15 +0000",
       "minecraft:breeze": "2025-02-17 02:05:36 +0000",
       "minecraft:enderman": "2025-02-17 01:44:52 +0000",
       "minecraft:silverfish": "2025-02-17 02:16:59 +0000",
@@ -697,6 +703,7 @@
       "minecraft:spider": "2025-02-17 01:26:28 +0000",
       "minecraft:zombie": "2025-02-17 01:25:42 +0000",
       "minecraft:zombie_villager": "2025-02-18 01:57:32 +0000",
+      "minecraft:husk": "2025-02-18 02:18:12 +0000",
       "minecraft:slime": "2025-02-17 02:23:51 +0000"
     },
     "done": false
@@ -1760,6 +1767,24 @@
   "travelersbackpack:recipes/misc/wolf": {
     "criteria": {
       "has_bone": "2025-02-17 19:12:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2025-02-18 02:08:16 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2025-02-18 02:16:26 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2025-02-18 02:16:26 +0000"
     },
     "done": true
   },

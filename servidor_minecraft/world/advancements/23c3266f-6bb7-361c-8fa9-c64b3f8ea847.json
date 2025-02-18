@@ -425,6 +425,7 @@
       "minecraft:zombie": "2025-02-17 01:25:57 +0000",
       "minecraft:creeper": "2025-02-17 01:44:58 +0000",
       "minecraft:zombie_villager": "2025-02-17 01:31:08 +0000",
+      "minecraft:husk": "2025-02-18 02:11:22 +0000",
       "minecraft:slime": "2025-02-17 02:23:32 +0000"
     },
     "done": false
@@ -439,12 +440,14 @@
     "criteria": {
       "cooked_porkchop": "2025-02-17 01:26:07 +0000",
       "bread": "2025-02-17 01:50:10 +0000",
+      "golden_apple": "2025-02-18 02:13:43 +0000",
       "rotten_flesh": "2025-02-18 02:00:35 +0000",
       "enchanted_golden_apple": "2025-02-17 01:54:54 +0000",
       "glow_berries": "2025-02-17 01:54:15 +0000",
       "sweet_berries": "2025-02-17 01:34:39 +0000",
       "cooked_beef": "2025-02-17 02:03:11 +0000",
       "baked_potato": "2025-02-17 02:09:38 +0000",
+      "pumpkin_pie": "2025-02-18 02:11:50 +0000",
       "golden_carrot": "2025-02-17 02:20:22 +0000"
     },
     "done": false
@@ -1679,6 +1682,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_nether_brick_wall": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2025-02-18 02:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:12:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
       "minecraft:ashen": "2025-02-18 02:02:47 +0000"
@@ -1691,15 +1712,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/creeper": {
     "criteria": {
       "has_gunpowder": "2025-02-18 02:00:52 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-02-18 02:12:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2025-02-18 02:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:12:28 +0000"
     },
     "done": true
   },
@@ -1715,15 +1766,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-02-18 02:12:28 +0000"
+    },
+    "done": true
+  },
   "advancednetherite:recipes/misc/netherite_emerald_ingot": {
     "criteria": {
       "has_minecraft:emerald": "2025-02-18 01:49:49 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/horse": {
     "criteria": {
       "has_leather": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
     },
     "done": true
   },
@@ -1751,9 +1832,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/iron_tier_upgrade": {
     "criteria": {
       "has_iron_ingot": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
     },
     "done": true
   },
@@ -1775,6 +1868,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
       "has_ender_pearl": "2025-02-18 01:49:49 +0000"
@@ -1790,6 +1889,12 @@
   "advancednetherite:recipes/misc/netherite_gold_ingot": {
     "criteria": {
       "has_minecraft:gold_ingot": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-02-18 02:16:59 +0000"
     },
     "done": true
   },
@@ -1817,9 +1922,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2025-02-18 02:16:54 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/gold_tier_upgrade": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 01:49:49 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:12:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-02-18 02:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
     },
     "done": true
   },
@@ -1832,6 +1973,18 @@
   "travelersbackpack:recipes/misc/pig": {
     "criteria": {
       "has_porkchop": "2025-02-18 02:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-02-18 02:16:59 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold_smithing": {
+    "criteria": {
+      "has_gold": "2025-02-18 02:09:32 +0000"
     },
     "done": true
   },
