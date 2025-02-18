@@ -8,15 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2025-02-18 02:05:38 +0000",
-      "minecraft:frozen_river": "2025-02-17 00:46:24 +0000",
       "minecraft:taiga": "2025-02-17 00:43:59 +0000",
-      "minecraft:deep_dark": "2025-02-17 01:50:49 +0000",
       "minecraft:river": "2025-02-18 02:04:57 +0000",
-      "minecraft:grove": "2025-02-18 01:57:21 +0000",
       "minecraft:snowy_plains": "2025-02-17 01:38:01 +0000",
       "minecraft:lush_caves": "2025-02-17 00:56:07 +0000",
       "minecraft:dripstone_caves": "2025-02-17 01:36:41 +0000",
       "minecraft:snowy_taiga": "2025-02-17 00:42:31 +0000",
+      "minecraft:frozen_river": "2025-02-17 00:46:24 +0000",
+      "minecraft:deep_dark": "2025-02-17 01:50:49 +0000",
+      "minecraft:grove": "2025-02-18 01:57:21 +0000",
+      "minecraft:meadow": "2025-02-18 02:33:18 +0000",
       "minecraft:snowy_beach": "2025-02-17 00:54:30 +0000",
       "minecraft:plains": "2025-02-18 02:04:38 +0000"
     },
@@ -1770,6 +1771,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:31:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-02-18 02:26:47 +0000"
@@ -1848,15 +1855,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-02-18 02:29:42 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/iron_golem_smithing": {
     "criteria": {
       "has_iron_golem": "2025-02-18 02:27:17 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-02-18 02:31:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2025-02-18 02:19:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-02-18 02:34:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:31:01 +0000"
     },
     "done": true
   },
@@ -1881,6 +1912,12 @@
   "travelersbackpack:recipes/decorations/white_sleeping_bag": {
     "criteria": {
       "has_white_wool": "2025-02-18 02:26:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-02-18 02:31:01 +0000"
     },
     "done": true
   },
@@ -2007,6 +2044,12 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-02-18 02:22:23 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bookshelf": {
+    "criteria": {
+      "has_book": "2025-02-18 02:31:01 +0000"
     },
     "done": true
   },
