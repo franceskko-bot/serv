@@ -23,6 +23,7 @@
       "minecraft:grove": "2025-02-17 01:52:43 +0000",
       "minecraft:meadow": "2025-02-18 02:24:44 +0000",
       "minecraft:birch_forest": "2025-02-18 02:57:48 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-02-18 20:35:17 +0000",
       "minecraft:savanna": "2025-02-18 19:50:51 +0000",
       "minecraft:plains": "2025-02-18 02:24:47 +0000"
     },
@@ -436,6 +437,7 @@
       "minecraft:enderman": "2025-02-17 01:35:55 +0000",
       "minecraft:silverfish": "2025-02-17 02:16:33 +0000",
       "minecraft:stray": "2025-02-17 01:26:21 +0000",
+      "minecraft:magma_cube": "2025-02-18 20:32:03 +0000",
       "minecraft:spider": "2025-02-17 01:26:02 +0000",
       "minecraft:vex": "2025-02-18 02:48:34 +0000",
       "minecraft:zombie": "2025-02-17 01:25:57 +0000",
@@ -2340,6 +2342,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-02-18 20:15:50 +0000"
@@ -2364,9 +2372,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-02-18 20:15:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
     },
     "done": true
   },
@@ -2376,9 +2402,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-02-18 20:10:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
     },
     "done": true
   },
@@ -2406,6 +2444,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/standard_no_tanks": {
+    "criteria": {
+      "has_chest": "2025-02-18 20:48:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2025-02-18 20:13:09 +0000"
@@ -2415,6 +2459,12 @@
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-02-18 20:15:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
     },
     "done": true
   },
@@ -2433,6 +2483,12 @@
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2025-02-18 20:12:29 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard": {
+    "criteria": {
+      "has_chest": "2025-02-18 20:48:30 +0000"
     },
     "done": true
   },
@@ -2460,6 +2516,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2025-02-18 20:13:09 +0000"
@@ -2472,9 +2534,21 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-02-18 20:32:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-02-18 20:13:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-18 20:54:10 +0000"
     },
     "done": true
   },
