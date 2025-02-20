@@ -16,6 +16,7 @@
       "minecraft:lush_caves": "2025-02-17 01:34:57 +0000",
       "minecraft:dripstone_caves": "2025-02-17 01:36:52 +0000",
       "minecraft:snowy_taiga": "2025-02-17 01:19:18 +0000",
+      "minecraft:old_growth_birch_forest": "2025-02-20 02:46:50 +0000",
       "minecraft:frozen_river": "2025-02-17 01:19:56 +0000",
       "minecraft:deep_dark": "2025-02-17 01:49:52 +0000",
       "minecraft:jungle": "2025-02-18 19:50:28 +0000",
@@ -2787,9 +2788,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-02-20 02:47:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-02-20 02:25:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-02-20 02:49:13 +0000"
     },
     "done": true
   },
@@ -2805,9 +2818,21 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-02-20 02:47:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2025-02-20 02:21:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-02-20 02:49:13 +0000"
     },
     "done": true
   },
