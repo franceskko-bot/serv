@@ -20,6 +20,7 @@
       "minecraft:snowy_taiga": "2025-02-17 00:42:31 +0000",
       "minecraft:frozen_river": "2025-02-17 00:46:24 +0000",
       "minecraft:deep_dark": "2025-02-17 01:50:49 +0000",
+      "minecraft:sunflower_plains": "2025-02-20 14:03:05 +0000",
       "minecraft:grove": "2025-02-18 01:57:21 +0000",
       "minecraft:meadow": "2025-02-18 02:33:18 +0000",
       "minecraft:birch_forest": "2025-02-18 19:45:56 +0000",
@@ -2890,6 +2891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-02-20 14:02:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherite_upgrade_smithing_template": "2025-02-20 13:50:53 +0000"
@@ -2911,6 +2918,12 @@
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 13:49:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-02-20 14:02:07 +0000"
     },
     "done": true
   },

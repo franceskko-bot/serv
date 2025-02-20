@@ -219,3 +219,43 @@
 [13:55:05] [Server thread/INFO]: [Franceskko: The difficulty has been set to Hard]
 [13:55:07] [Server thread/INFO]: List of possible modded bow items are empty, preparing to fill up...
 [13:55:07] [Server thread/INFO]: No modded bow items have been found!
+[13:59:12] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/17863, l='ServerLevel[world]', x=-2172.50, y=-11.00, z=-3445.50]
+[14:00:17] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[14:00:17] [Server thread/INFO]: No modded crossbow items have been found!
+[14:00:32] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-2085, y=64, z=-3405}
+[14:01:47] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/19166, l='ServerLevel[world]', x=-2059.50, y=0.00, z=-3517.50]
+[14:02:11] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/19455, l='ServerLevel[world]', x=-2232.50, y=41.00, z=-3648.50]
+[14:02:32] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/19628, l='ServerLevel[world]', x=-2216.50, y=39.00, z=-3657.50]
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-274, y=-57, z=-245}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-276, y=-57, z=-243}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-277, y=-57, z=-244}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
+[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
+[14:02:51] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/19800, l='ServerLevel[world]', x=-2117.50, y=88.00, z=-3673.50]
+[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
+[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
+[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
+[14:03:10] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
+[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
+[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
+[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
+[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
+[14:03:38] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -2489.000000, 128.000000, -3631.000000]
+[14:03:39] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/20348, l='ServerLevel[world]', x=-2516.50, y=29.00, z=-3702.50]
+[14:03:40] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/20395, l='ServerLevel[world]', x=-2447.50, y=48.00, z=-3683.50]
+[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[14:04:06] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/21043, l='ServerLevel[world]', x=-2488.50, y=67.00, z=-3608.50]
+[14:05:40] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -2768.000000, 72.000000, -3513.000000]
