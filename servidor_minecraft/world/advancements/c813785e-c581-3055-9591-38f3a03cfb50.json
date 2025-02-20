@@ -2400,6 +2400,7 @@
   "mob-ai-tweaks:orphan_obliterator": {
     "criteria": {
       "baby_zombie": "2025-02-18 20:19:53 +0000",
+      "baby_zombified_piglin": "2025-02-20 19:09:07 +0000",
       "baby_skeleton": "2025-02-18 20:31:21 +0000",
       "baby_bogged": "2025-02-20 17:51:44 +0000"
     },
