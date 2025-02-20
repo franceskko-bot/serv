@@ -1,7 +1,7 @@
-[13:26:38] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[13:26:38] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[17:32:07] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[17:32:08] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[13:26:38] [main/INFO]: Loading 97 mods:
+[17:32:08] [main/INFO]: Loading 97 mods:
 	- advancednetherite 2.1.6-1.21
 	- architectury 13.0.8
 	- artifacts 12.0.6
@@ -115,156 +115,138 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[13:26:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:26:38] [main/INFO]: Compatibility level set to JAVA_21
-[13:26:39] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:26:39] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:26:39] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[13:26:39] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[13:26:39] [main/INFO]: Applying Nashorn fix
-[13:26:40] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[13:26:40] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[13:26:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[13:26:44] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[13:26:44] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[13:26:49] [main/INFO]: Vanilla bootstrap took 8052 milliseconds
-[13:26:49] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[13:26:49] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[13:26:50] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[13:26:50] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[13:26:50] [main/ERROR]: No data fixer registered for artifacts:mimic
-[13:26:50] [main/INFO]: Loading Collective version 7.91.
-[13:26:50] [main/INFO]: fabric loader environment detected
-[13:26:50] [main/INFO]: YAaargh!
-[13:26:50] [main/INFO]: Constructing common components for easymagic:main
-[13:26:50] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[13:26:50] [main/INFO]: ExpandAbility here, who dis?
-[13:26:50] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[13:26:50] [main/INFO]: [Mebahel's Zombie Horde] Registering zombie horde spawning for mebahel-zombie-horde.
-[13:26:50] [main/INFO]: [Mebahel's Zombie Horde] Initialization complete.
-[13:26:50] [main/INFO]: Loading Noisium.
-[13:26:50] [main/INFO]: Constructing common components for puzzleslib:main
-[13:26:50] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[13:26:50] [main/ERROR]: No data fixer registered for 
-[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[13:26:51] [main/INFO]: Initializing Undead Nights Mod
-[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
-[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
-[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
-[13:26:51] [main/INFO]: Registering Sounds for undeadnights
-[13:26:51] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[13:26:51] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[13:26:54] [main/INFO]: Loaded 1522 recipes
-[13:26:54] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
-[13:26:54] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
-[13:26:54] [main/INFO]: Loaded 1647 advancements
-[13:26:54] [main/INFO]: Reloading grave shape (server)
-[13:26:54] [main/INFO]: Grave model and shape reload successful (server)
-[13:26:54] [main/INFO]: Reloading YIGD graveyard data (server)
-[13:26:54] [main/INFO]: Graveyard data successfully reloaded (server)
-[13:26:54] [main/INFO]: Reloading YIGD grave area overrides (server)
-[13:26:54] [main/INFO]: Grave area overrides successfully reloaded (server)
-[13:26:54] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
-[13:26:54] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 54.45 ms
-[13:26:54] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[13:26:54] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[13:26:54] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[13:26:54] [Server thread/INFO]: Starting minecraft server version 1.21
-[13:26:54] [Server thread/INFO]: Loading properties
-[13:26:54] [Server thread/INFO]: Default game type: SURVIVAL
-[13:26:54] [Server thread/INFO]: Generating keypair
-[13:26:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:26:54] [Server thread/INFO]: Using epoll channel type
-[13:26:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:26:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:26:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:26:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:26:55] [Server thread/INFO]: Preparing level "world"
-[13:26:55] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[13:26:55] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Loaded difficulty level for world minecraft:overworld: 2
-[13:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:26:56] [Server thread/INFO]: Time elapsed: 1318 ms
-[13:26:56] [Server thread/INFO]: Done (1.777s)! For help, type "help"
-[13:26:56] [Server thread/WARN]: Dedicated server took 20.272 seconds to load
-[13:27:02] [Server thread/INFO]: Franceskko[/100.96.204.97:53579] logged in with entity id 10 at (-1890.27140552641, 119.0, -3087.983221187169)
-[13:27:02] [Server thread/INFO]: Loading config from file...
-[13:27:02] [Server thread/INFO]: Franceskko joined the game
-[13:27:03] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
-[13:35:23] [Server thread/INFO]: Franceskko has made the advancement [Hidden in the Depths]
-[13:45:12] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -221.500000, 17.000000, -380.500000]
-[13:50:06] [Server thread/INFO]: Franceskko has made the advancement [Crafting a New Look]
-[13:50:53] [Server thread/INFO]: [Franceskko: Gave 64 [Smithing Template] to Franceskko]
-[13:51:03] [Server thread/INFO]: [Franceskko: Gave 1 [Netherite Ingot] to Franceskko]
-[13:51:03] [Server thread/INFO]: [Franceskko: Gave 1 [Netherite Ingot] to Franceskko]
-[13:51:03] [Server thread/INFO]: [Franceskko: Gave 1 [Netherite Ingot] to Franceskko]
-[13:51:04] [Server thread/INFO]: [Franceskko: Gave 1 [Netherite Ingot] to Franceskko]
-[13:51:50] [Server thread/INFO]: [Franceskko: Gave 1 [Smithing Template] to Franceskko]
-[13:51:51] [Server thread/INFO]: [Franceskko: Gave 1 [Smithing Template] to Franceskko]
-[13:51:53] [Server thread/INFO]: [Franceskko: Gave 1 [Smithing Template] to Franceskko]
-[13:51:55] [Server thread/INFO]: [Franceskko: Gave 1 [Smithing Template] to Franceskko]
-[13:55:05] [Server thread/INFO]: [Franceskko: The difficulty has been set to Hard]
-[13:55:07] [Server thread/INFO]: List of possible modded bow items are empty, preparing to fill up...
-[13:55:07] [Server thread/INFO]: No modded bow items have been found!
-[13:59:12] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/17863, l='ServerLevel[world]', x=-2172.50, y=-11.00, z=-3445.50]
-[14:00:17] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
-[14:00:17] [Server thread/INFO]: No modded crossbow items have been found!
-[14:00:32] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-2085, y=64, z=-3405}
-[14:01:47] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/19166, l='ServerLevel[world]', x=-2059.50, y=0.00, z=-3517.50]
-[14:02:11] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/19455, l='ServerLevel[world]', x=-2232.50, y=41.00, z=-3648.50]
-[14:02:32] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/19628, l='ServerLevel[world]', x=-2216.50, y=39.00, z=-3657.50]
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-274, y=-57, z=-245}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-276, y=-57, z=-243}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-277, y=-57, z=-244}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
-[14:02:40] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
-[14:02:51] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/19800, l='ServerLevel[world]', x=-2117.50, y=88.00, z=-3673.50]
-[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
-[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
-[14:03:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
-[14:03:10] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
-[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
-[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
-[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
-[14:03:11] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
-[14:03:38] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -2489.000000, 128.000000, -3631.000000]
-[14:03:39] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/20348, l='ServerLevel[world]', x=-2516.50, y=29.00, z=-3702.50]
-[14:03:40] [Server thread/WARN]: UUID of added entity already exists: class_1613['Skeleton'/20395, l='ServerLevel[world]', x=-2447.50, y=48.00, z=-3683.50]
-[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[14:04:06] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/21043, l='ServerLevel[world]', x=-2488.50, y=67.00, z=-3608.50]
-[14:05:40] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -2768.000000, 72.000000, -3513.000000]
-[14:10:59] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24007, l='ServerLevel[world]', x=-2891.34, y=-8.16, z=-3701.69] died: Foundry Guardian was shot by Franceskko
-[14:11:14] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24160, l='ServerLevel[world]', x=-2885.70, y=-9.00, z=-3700.60] died: Foundry Guardian was slain by Franceskko
-[14:11:15] [Server thread/INFO]: Franceskko has made the advancement [Into Fire]
-[14:11:34] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24233, l='ServerLevel[world]', x=-2898.79, y=-9.81, z=-3701.36] died: Foundry Guardian was shot by Franceskko
-[14:13:41] [Server thread/INFO]: Franceskko has made the advancement [Who is Cutting Onions?]
-[14:14:22] [Server thread/INFO]: Named entity class_1639['Forge Sentry'/25405, l='ServerLevel[world]', x=-2950.00, y=-16.00, z=-3746.08] died: Forge Sentry was slain by Franceskko
-[14:15:32] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-2843, y=-8, z=-3706}
-[14:16:21] [Server thread/INFO]: Franceskko lost connection: Disconnected
-[14:16:21] [Server thread/INFO]: Franceskko left the game
+[17:32:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:32:08] [main/INFO]: Compatibility level set to JAVA_21
+[17:32:08] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:32:09] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:32:09] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[17:32:09] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[17:32:09] [main/INFO]: Applying Nashorn fix
+[17:32:10] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:32:10] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[17:32:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:32:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:32:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[17:32:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:32:16] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:32:16] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17:32:20] [main/INFO]: Vanilla bootstrap took 9174 milliseconds
+[17:32:20] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[17:32:21] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[17:32:21] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[17:32:21] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[17:32:21] [main/ERROR]: No data fixer registered for artifacts:mimic
+[17:32:21] [main/INFO]: Loading Collective version 7.91.
+[17:32:21] [main/INFO]: fabric loader environment detected
+[17:32:21] [main/INFO]: YAaargh!
+[17:32:21] [main/INFO]: Constructing common components for easymagic:main
+[17:32:21] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[17:32:21] [main/INFO]: ExpandAbility here, who dis?
+[17:32:21] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[17:32:21] [main/INFO]: [Mebahel's Zombie Horde] Registering zombie horde spawning for mebahel-zombie-horde.
+[17:32:21] [main/INFO]: [Mebahel's Zombie Horde] Initialization complete.
+[17:32:21] [main/INFO]: Loading Noisium.
+[17:32:21] [main/INFO]: Constructing common components for puzzleslib:main
+[17:32:21] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[17:32:22] [main/ERROR]: No data fixer registered for 
+[17:32:22] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[17:32:22] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[17:32:22] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[17:32:22] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[17:32:22] [main/INFO]: Initializing Undead Nights Mod
+[17:32:22] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
+[17:32:22] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
+[17:32:22] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
+[17:32:22] [main/INFO]: Registering Sounds for undeadnights
+[17:32:22] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:32:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:32:24] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[17:32:24] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[17:32:24] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[17:32:24] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[17:32:24] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[17:32:25] [main/INFO]: Loaded 1522 recipes
+[17:32:25] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[17:32:25] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
+[17:32:25] [main/INFO]: Loaded 1647 advancements
+[17:32:25] [main/INFO]: Reloading grave shape (server)
+[17:32:25] [main/INFO]: Grave model and shape reload successful (server)
+[17:32:25] [main/INFO]: Reloading YIGD graveyard data (server)
+[17:32:25] [main/INFO]: Graveyard data successfully reloaded (server)
+[17:32:25] [main/INFO]: Reloading YIGD grave area overrides (server)
+[17:32:25] [main/INFO]: Grave area overrides successfully reloaded (server)
+[17:32:25] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
+[17:32:26] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 15.30 ms
+[17:32:26] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[17:32:26] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[17:32:26] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[17:32:26] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:32:26] [Server thread/INFO]: Loading properties
+[17:32:26] [Server thread/INFO]: Default game type: SURVIVAL
+[17:32:26] [Server thread/INFO]: Generating keypair
+[17:32:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:32:26] [Server thread/INFO]: Using epoll channel type
+[17:32:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:32:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:32:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:32:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:32:26] [Server thread/INFO]: Preparing level "world"
+[17:32:27] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[17:32:27] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Loaded difficulty level for world minecraft:overworld: 2
+[17:32:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:32:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:32:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:32:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:32:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:32:28] [Server thread/INFO]: Time elapsed: 1751 ms
+[17:32:28] [Server thread/INFO]: Done (2.210s)! For help, type "help"
+[17:32:28] [Server thread/WARN]: Dedicated server took 22.625 seconds to load
+[17:32:36] [Server thread/INFO]: Franceskko[/100.96.204.97:54075] logged in with entity id 10 at (-2880.2372931726954, -8.0, -3657.22282383635)
+[17:32:36] [Server thread/INFO]: Loading config from file...
+[17:32:36] [Server thread/INFO]: Franceskko joined the game
+[17:32:39] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[17:32:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3710ms or 74 ticks behind
+[17:33:01] [Server thread/INFO]: KaraVit[/100.109.49.4:52151] logged in with entity id 525 at (-1875.9050699854765, 131.0, -3087.9590075620595)
+[17:33:01] [Server thread/INFO]: Loading config from file...
+[17:33:01] [Server thread/INFO]: KaraVit joined the game
+[17:33:02] [Server thread/INFO]: Priority overwritten for player KaraVit. Claiming: GRAVE / Robbing: INVENTORY
+[17:33:22] [Server thread/INFO]: [Not Secure] <KaraVit> bRUH
+[17:33:25] [Server thread/INFO]: [Not Secure] <KaraVit> Y lo horrible?
+[17:33:52] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
+[17:33:55] [Server thread/INFO]: [Not Secure] <Franceskko> era ciego
+[17:35:29] [Server thread/INFO]: [Not Secure] <Franceskko> qlokk
+[17:35:48] [Server thread/INFO]: [Not Secure] <KaraVit> Klok
+[17:36:05] [Server thread/INFO]: [Not Secure] <Franceskko> sale dungeon
+[17:36:07] [Server thread/INFO]: [Not Secure] <Franceskko> :,d
+[17:36:14] [Server thread/INFO]: [Not Secure] <KaraVit> Yendo
+[17:36:23] [Server thread/INFO]: [Not Secure] <KaraVit> Armado y preparado
+[17:36:27] [Server thread/INFO]: [Not Secure] <Franceskko> ¿¿¿¿
+[17:36:42] [Server thread/INFO]: [Not Secure] <Franceskko> tegpeate
+[17:36:50] [Server thread/INFO]: [Not Secure] <KaraVit> &tp karavit franceskko
+[17:36:54] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
+[17:37:05] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
+[17:37:07] [Server thread/INFO]: [Not Secure] <KaraVit> y esta kakita
+[17:37:32] [Server thread/INFO]: [Not Secure] <KaraVit> wats
+[17:37:42] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3506, l='ServerLevel[world]', x=-2865.95, y=-9.24, z=-3720.49] died: Foundry Guardian was slain by Franceskko
+[17:37:44] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3508, l='ServerLevel[world]', x=-2858.06, y=-7.73, z=-3715.17] died: Foundry Guardian was slain by Franceskko
+[17:37:48] [Server thread/INFO]: Named entity class_1639['Forge Sentry'/3541, l='ServerLevel[world]', x=-2854.83, y=-10.00, z=-3713.91] died: Forge Sentry was slain by KaraVit
+[17:37:53] [Server thread/INFO]: Named entity class_1639['Forge Sentry'/3539, l='ServerLevel[world]', x=-2850.30, y=-12.00, z=-3721.33] died: Forge Sentry was slain by KaraVit
+[17:38:03] [Server thread/INFO]: Franceskko has made the advancement [Amateur Archaeologist]
+[17:38:40] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3892, l='ServerLevel[world]', x=-2820.55, y=-13.00, z=-3683.49] died: Foundry Guardian was shot by KaraVit
+[17:38:48] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3893, l='ServerLevel[world]', x=-2815.31, y=-16.27, z=-3679.40] died: Foundry Guardian was slain by Franceskko
+[17:38:53] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4191, l='ServerLevel[world]', x=-2816.80, y=-17.00, z=-3682.38] died: Foundry Guardian was slain by Franceskko
+[17:38:56] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4076, l='ServerLevel[world]', x=-2816.29, y=-17.00, z=-3681.90] died: Foundry Guardian was slain by Franceskko
+[17:39:00] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4193, l='ServerLevel[world]', x=-2815.30, y=-15.27, z=-3674.56] died: Foundry Guardian was slain by Franceskko
+[17:39:03] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3894, l='ServerLevel[world]', x=-2818.64, y=-15.03, z=-3686.43] died: Foundry Guardian was slain by Franceskko
+[17:39:09] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3895, l='ServerLevel[world]', x=-2820.30, y=-17.80, z=-3687.30] died: Foundry Guardian was slain by Franceskko
+[17:39:14] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3890, l='ServerLevel[world]', x=-2811.34, y=-17.00, z=-3685.94] died: Foundry Guardian was slain by Franceskko
+[17:39:15] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4284, l='ServerLevel[world]', x=-2820.51, y=-15.24, z=-3680.86] died: Foundry Guardian was slain by KaraVit
+[17:39:24] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3923, l='ServerLevel[world]', x=-2810.30, y=-15.74, z=-3688.27] died: Foundry Guardian was slain by KaraVit
+[17:40:18] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4192, l='ServerLevel[world]', x=-2826.62, y=-16.53, z=-3650.14] died: Foundry Guardian was slain by KaraVit
+[17:40:24] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4194, l='ServerLevel[world]', x=-2812.82, y=-15.97, z=-3654.89] died: Foundry Guardian was slain by KaraVit
+[17:40:28] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4078, l='ServerLevel[world]', x=-2817.29, y=-16.00, z=-3653.31] died: Foundry Guardian was slain by KaraVit
+[17:40:33] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3711, l='ServerLevel[world]', x=-2812.17, y=-14.96, z=-3675.58] died: Foundry Guardian was shot by KaraVit
+[17:40:35] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/3891, l='ServerLevel[world]', x=-2805.83, y=-14.41, z=-3667.70] died: Foundry Guardian was shot by KaraVit
+[17:40:40] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/4075, l='ServerLevel[world]', x=-2811.30, y=-17.06, z=-3675.07] died: Foundry Guardian was slain by KaraVit
+[17:40:49] [Server thread/INFO]: KaraVit has made the advancement [Hidden in the Depths]
+[17:41:31] [Server thread/INFO]: Named entity class_1639['Forge Sentry'/5568, l='ServerLevel[world]', x=-2878.67, y=-8.00, z=-3775.34] died: Forge Sentry was slain by Franceskko
