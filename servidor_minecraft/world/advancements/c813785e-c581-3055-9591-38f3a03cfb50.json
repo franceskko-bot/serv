@@ -709,6 +709,7 @@
       "minecraft:witch": "2025-02-18 02:46:47 +0000",
       "minecraft:wither_skeleton": "2025-02-20 14:14:22 +0000",
       "minecraft:husk": "2025-02-18 02:18:12 +0000",
+      "minecraft:bogged": "2025-02-20 17:51:14 +0000",
       "minecraft:hoglin": "2025-02-20 14:14:19 +0000",
       "minecraft:breeze": "2025-02-17 02:05:36 +0000",
       "minecraft:vindicator": "2025-02-18 02:47:55 +0000",
@@ -2392,7 +2393,8 @@
   "mob-ai-tweaks:orphan_obliterator": {
     "criteria": {
       "baby_zombie": "2025-02-18 20:19:53 +0000",
-      "baby_skeleton": "2025-02-18 20:31:21 +0000"
+      "baby_skeleton": "2025-02-18 20:31:21 +0000",
+      "baby_bogged": "2025-02-20 17:51:44 +0000"
     },
     "done": false
   },
@@ -3288,6 +3290,90 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
     "criteria": {
       "has_gold_ore": "2025-02-20 14:13:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-02-20 17:42:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-02-20 17:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-02-20 17:51:21 +0000"
     },
     "done": true
   },
