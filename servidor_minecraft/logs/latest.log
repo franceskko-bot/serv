@@ -454,3 +454,59 @@
 [18:21:38] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
 [18:21:40] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
 [18:21:40] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:55] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[18:22:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14216ms or 284 ticks behind
+[18:22:57] [Server thread/WARN]: Franceskko moved too quickly! 1.3294381870200596,-4.9168389653072495,-8.749387615805063
+[18:22:57] [Server thread/INFO]: [Not Secure] <KaraVit> efe
+[18:22:57] [Server thread/INFO]: [Not Secure] <KaraVit> La mufamos
+[18:23:05] [Server thread/INFO]: [Not Secure] <Franceskko> efe
+[18:23:34] [Server thread/INFO]: [Not Secure] <Franceskko> che efota
+[18:23:41] [Server thread/INFO]: [Not Secure] <Franceskko> volvio el calor
+[18:23:43] [Server thread/INFO]: [Not Secure] <Franceskko> :,
+[18:23:48] [Server thread/INFO]: [Not Secure] <KaraVit> Jejeje
+[18:23:49] [Server thread/INFO]: [Not Secure] <KaraVit> God
+[18:23:54] [Server thread/INFO]: [Not Secure] <Franceskko> :|
+[18:24:17] [Server thread/INFO]: [Not Secure] <KaraVit> ojala encontrar una god dungeon
+[18:24:29] [Server thread/INFO]: [Not Secure] <Franceskko> uff
+[18:24:31] [Server thread/INFO]: [Not Secure] <Franceskko> la god
+[18:24:45] [Server thread/INFO]: [Not Secure] <Franceskko> tepeate
+[18:24:47] [Server thread/INFO]: [Not Secure] <Franceskko> :p
+[18:24:53] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
+[18:24:57] [Server thread/INFO]: [Not Secure] <KaraVit> ...
+[18:25:02] [Server thread/INFO]: [Not Secure] <Franceskko> :D
+[18:25:21] [Server thread/INFO]: [Not Secure] <Franceskko> rre bug igual
+[18:25:33] [Server thread/INFO]: [Not Secure] <KaraVit> capaz pq lo instalamos dsp
+[18:26:46] [Server thread/INFO]: [Not Secure] <Franceskko> ajips
+[18:27:07] [Server thread/INFO]: Locating element #dungeons_arise:explorer_maps/shiraz_palace (dungeons_arise:shiraz_palace) took 5864 ms
+[18:27:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5870ms or 117 ticks behind
+[18:27:07] [Server thread/WARN]: KaraVit moved too quickly! -9.872814978957194,0.44099998474121094,-3.2486043710605372
+[18:27:07] [Server thread/WARN]: Franceskko moved too quickly! -8.16667432254917,-2.0,-5.630180282508263
+[18:27:07] [Server thread/INFO]: [Not Secure] <KaraVit> '¿
+[18:27:11] [Server thread/INFO]: [Not Secure] <Franceskko> alv
+[18:27:17] [Server thread/INFO]: [Not Secure] <Franceskko> 12k
+[18:27:27] [Server thread/INFO]: [Not Secure] <KaraVit> ??
+[18:27:29] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -14287.500000, 65.000000, 64.500000]
+[18:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2211ms or 44 ticks behind
+[18:27:36] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
+[18:27:54] [Server thread/INFO]: [Not Secure] <KaraVit> Bruh
+[18:27:55] [Server thread/INFO]: [Not Secure] <KaraVit> mal
+[18:27:59] [Server thread/INFO]: [Not Secure] <KaraVit> esto estaba en el desierto
+[18:28:15] [Server thread/INFO]: [Not Secure] <Franceskko> jeje
+[18:28:26] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-320, y=-45, z=-203}
+[18:28:26] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-204}
+[18:28:26] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-202}
+[18:29:13] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -14274.000000, 127.000000, 26.000000]
+[18:30:05] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:30:05] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[18:30:33] [Server thread/ERROR]: Failed to apply component patch '{minecraft:potion_contents=>class_1844[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:long_regeneration]=net.minecraft.class_1842@25c7c446}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 3 was larger than maximum: 1'
+[18:31:28] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=49, y=-48, z=-413}
+[18:31:28] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=49, y=-48, z=-415}
