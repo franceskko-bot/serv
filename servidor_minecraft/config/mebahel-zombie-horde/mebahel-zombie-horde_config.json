@@ -6,7 +6,7 @@
   "hordeSpawnChance": 1.0,
   "randomNumberHordeReinforcements": 0,
   "hordeNumber": 1,
-  "hordeMemberBonusHealth": 20,
+  "hordeMemberBonusHealth": 0,
   "hordeMemberBreakGlass": true,
   "hordeMemberBreakFence": true
 }
