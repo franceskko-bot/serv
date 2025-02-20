@@ -3298,6 +3298,12 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/lodestone": {
+    "criteria": {
+      "has_netherite_ingots": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/black_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3319,6 +3325,12 @@
   "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/building_blocks/netherite_iron_block": {
+    "criteria": {
+      "has_netherite_iron_ingot": "2025-02-20 18:50:52 +0000"
     },
     "done": true
   },
@@ -3424,6 +3436,12 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/netherite_iron_sword_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/yellow_portstone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3484,6 +3502,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-02-20 18:44:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_slab": {
     "criteria": {
       "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
@@ -3496,6 +3520,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2025-02-20 18:44:09 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/red_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3505,6 +3535,12 @@
   "waystones:recipes/decorations/cyan_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-02-20 18:46:36 +0000"
     },
     "done": true
   },
@@ -3523,6 +3559,12 @@
   "waystones:recipes/decorations/deepslate_waystone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2025-02-20 18:44:09 +0000"
     },
     "done": true
   },
@@ -3598,6 +3640,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-02-20 18:44:09 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/blue_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3607,6 +3655,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-02-20 18:28:23 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_leggings_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
     },
     "done": true
   },
@@ -3628,6 +3682,12 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/netherite_iron_hoe_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
     "criteria": {
       "has_smooth_sandstone": "2025-02-20 18:27:35 +0000"
@@ -3643,6 +3703,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-02-20 18:28:23 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_axe_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
     },
     "done": true
   },
@@ -3670,9 +3736,39 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/netherite_iron_shovel_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_helmet_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_boots_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2025-02-20 18:33:20 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_pickaxe_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-02-20 18:45:05 +0000"
     },
     "done": true
   },
@@ -3763,6 +3859,12 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_iron_chestplate_smithing": {
+    "criteria": {
+      "has_ingredients": "2025-02-20 18:50:52 +0000"
     },
     "done": true
   },

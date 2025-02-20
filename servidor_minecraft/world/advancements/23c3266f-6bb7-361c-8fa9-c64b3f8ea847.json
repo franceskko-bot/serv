@@ -19,6 +19,7 @@
       "minecraft:birch_forest": "2025-02-18 02:57:48 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-02-18 20:35:17 +0000",
       "minecraft:wooded_badlands": "2025-02-20 18:27:37 +0000",
+      "minecraft:warm_ocean": "2025-02-20 18:49:35 +0000",
       "minecraft:badlands": "2025-02-20 18:30:21 +0000",
       "minecraft:flower_forest": "2025-02-20 17:45:49 +0000",
       "minecraft:dark_forest": "2025-02-18 02:58:38 +0000",
@@ -3267,6 +3268,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:44:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/crimson_pressure_plate": {
     "criteria": {
       "has_planks": "2025-02-20 18:33:19 +0000"
@@ -3357,6 +3364,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:44:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2025-02-20 18:07:03 +0000"
@@ -3402,6 +3415,12 @@
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:44:36 +0000"
     },
     "done": true
   },
@@ -3600,6 +3619,12 @@
   "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:44:36 +0000"
     },
     "done": true
   },

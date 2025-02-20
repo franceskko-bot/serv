@@ -532,3 +532,20 @@
 [18:39:27] [Server thread/INFO]: [Not Secure] <Franceskko> give me
 [18:39:52] [Server thread/ERROR]: Failed to apply component patch '{minecraft:potion_contents=>class_1844[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:strong_healing]=net.minecraft.class_1842@1284c698}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 3 was larger than maximum: 1'
 [18:43:10] [Server thread/INFO]: [Not Secure] <Franceskko> tjijo
+[18:46:18] [Server thread/ERROR]: Failed to apply component patch '{minecraft:potion_contents=>class_1844[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:long_regeneration]=net.minecraft.class_1842@25c7c446}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 3 was larger than maximum: 1'
+[18:46:45] [Server thread/ERROR]: Failed to apply component patch '{minecraft:potion_contents=>class_1844[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:long_regeneration]=net.minecraft.class_1842@25c7c446}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 3 was larger than maximum: 1'
+[18:46:57] [Server thread/ERROR]: Failed to apply component patch '{minecraft:potion_contents=>class_1844[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:strong_healing]=net.minecraft.class_1842@1284c698}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 2 was larger than maximum: 1'
+[18:47:23] [Server thread/INFO]: [Not Secure] <Franceskko> che
+[18:47:33] [Server thread/INFO]: [Not Secure] <KaraVit> k
+[18:47:39] [Server thread/INFO]: [Not Secure] <Franceskko> se puede reparar la netherita
+[18:47:50] [Server thread/INFO]: [Not Secure] <KaraVit> Mepa que solo con reparacion
+[18:47:53] [Server thread/INFO]: [Not Secure] <Franceskko> :,
+[18:48:01] [Server thread/INFO]: [Not Secure] <Franceskko> me voy a casa entonces
+[18:48:01] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-14330, y=98, z=-33}
+[18:51:20] [Server thread/INFO]: [KaraVit: Teleported KaraVit to Franceskko]
+[18:51:39] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
+[18:51:42] [Server thread/INFO]: [Not Secure] <KaraVit> el goat
+[18:51:48] [Server thread/INFO]: [Not Secure] <Franceskko> ???????????????????
+[18:52:10] [Server thread/INFO]: [Not Secure] <Franceskko> bruh
+[18:52:18] [Server thread/INFO]: [Not Secure] <Franceskko> y le ehcaba la culpa a los zombies
+[18:52:24] [Server thread/INFO]: [Not Secure] <KaraVit> :|
