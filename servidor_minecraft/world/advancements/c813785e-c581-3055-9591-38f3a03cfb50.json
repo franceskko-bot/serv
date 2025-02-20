@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2025-02-18 02:57:36 +0000",
+      "minecraft:snowy_slopes": "2025-02-20 18:22:29 +0000",
       "minecraft:beach": "2025-02-18 02:05:38 +0000",
       "minecraft:dark_forest": "2025-02-18 19:43:12 +0000",
       "minecraft:forest": "2025-02-18 02:51:42 +0000",
@@ -21,6 +22,7 @@
       "minecraft:frozen_river": "2025-02-17 00:46:24 +0000",
       "minecraft:deep_dark": "2025-02-17 01:50:49 +0000",
       "minecraft:sunflower_plains": "2025-02-20 14:03:05 +0000",
+      "minecraft:cherry_grove": "2025-02-20 18:22:01 +0000",
       "minecraft:grove": "2025-02-18 01:57:21 +0000",
       "minecraft:meadow": "2025-02-18 02:33:18 +0000",
       "minecraft:birch_forest": "2025-02-18 19:45:56 +0000",

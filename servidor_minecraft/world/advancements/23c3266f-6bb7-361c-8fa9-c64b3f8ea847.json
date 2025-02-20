@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2025-02-20 17:45:49 +0000",
+      "minecraft:snowy_slopes": "2025-02-20 18:22:25 +0000",
       "minecraft:dark_forest": "2025-02-18 02:58:38 +0000",
       "minecraft:forest": "2025-02-18 02:57:36 +0000",
       "minecraft:taiga": "2025-02-17 01:20:13 +0000",
@@ -2628,7 +2629,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-02-18 21:01:57 +0000",
-      "minecraft:soul_sand_valley": "2025-02-18 21:10:50 +0000"
+      "minecraft:soul_sand_valley": "2025-02-18 21:10:50 +0000",
+      "minecraft:basalt_deltas": "2025-02-20 18:17:29 +0000"
     },
     "done": false
   },
@@ -3088,6 +3090,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-02-20 18:12:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
@@ -3133,6 +3141,12 @@
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2025-02-20 17:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-02-20 18:12:52 +0000"
     },
     "done": true
   },
@@ -3202,6 +3216,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-02-20 18:17:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
@@ -3244,6 +3264,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-02-20 18:12:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
@@ -3253,6 +3279,12 @@
   "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-02-20 17:38:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-02-20 18:17:37 +0000"
     },
     "done": true
   },
@@ -3277,6 +3309,12 @@
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 17:44:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-02-20 18:17:37 +0000"
     },
     "done": true
   },
