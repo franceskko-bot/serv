@@ -3302,6 +3302,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
+    },
+    "done": true
+  },
   "advancednetherite:recipes/misc/lodestone": {
     "criteria": {
       "has_netherite_ingots": "2025-02-20 18:50:52 +0000"
@@ -3317,6 +3323,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2025-02-20 18:28:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
     },
     "done": true
   },
@@ -3380,6 +3392,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-02-20 19:21:31 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/brown_portstone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3422,9 +3440,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
     "criteria": {
       "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
     },
     "done": true
   },
@@ -3449,6 +3479,12 @@
   "waystones:recipes/decorations/yellow_portstone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
     },
     "done": true
   },
@@ -3518,9 +3554,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-02-20 19:21:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_slab": {
     "criteria": {
       "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
     },
     "done": true
   },
@@ -3563,6 +3611,12 @@
   "waystones:recipes/decorations/purple_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
     },
     "done": true
   },
@@ -3656,6 +3710,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/blue_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3677,6 +3737,12 @@
   "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-02-20 18:28:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
     },
     "done": true
   },
@@ -3764,6 +3830,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
+    },
+    "done": true
+  },
   "advancednetherite:recipes/misc/netherite_iron_boots_smithing": {
     "criteria": {
       "has_ingredients": "2025-02-20 18:50:52 +0000"
@@ -3773,6 +3845,12 @@
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2025-02-20 18:33:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-20 19:19:04 +0000"
     },
     "done": true
   },
@@ -3839,6 +3917,12 @@
   "minecraft:recipes/building_blocks/tuff_bricks": {
     "criteria": {
       "has_polished_tuff": "2025-02-20 17:51:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-20 19:20:13 +0000"
     },
     "done": true
   },
