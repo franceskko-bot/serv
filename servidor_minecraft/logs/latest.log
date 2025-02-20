@@ -206,3 +206,6 @@
 [09:43:26] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
 [09:43:50] [Server thread/INFO]: [Franceskko: Set own game mode to Creative Mode]
 [09:58:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1854, y=137, z=-3055}
+[10:13:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1815, y=140, z=-3044}
+[10:28:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1904, y=130, z=-3050}
+[10:30:39] [Server thread/WARN]: Franceskko moved too quickly! -7.431313309453344,0.0,7.0512086669464225
