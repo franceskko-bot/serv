@@ -437,6 +437,7 @@
       "minecraft:wither_skeleton": "2025-02-20 03:10:46 +0000",
       "minecraft:ravager": "2025-02-18 02:45:06 +0000",
       "minecraft:husk": "2025-02-18 02:11:22 +0000",
+      "minecraft:ghast": "2025-02-20 03:36:56 +0000",
       "minecraft:piglin": "2025-02-18 21:02:30 +0000",
       "minecraft:breeze": "2025-02-17 02:05:58 +0000",
       "minecraft:vindicator": "2025-02-18 02:42:49 +0000",
@@ -2270,6 +2271,7 @@
   "mob-ai-tweaks:orphan_obliterator": {
     "criteria": {
       "baby_zombie": "2025-02-18 20:26:43 +0000",
+      "baby_zombified_piglin": "2025-02-20 03:36:38 +0000",
       "baby_skeleton": "2025-02-18 19:46:25 +0000"
     },
     "done": false
@@ -2794,6 +2796,12 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-02-20 02:47:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-02-20 03:36:56 +0000"
     },
     "done": true
   },
