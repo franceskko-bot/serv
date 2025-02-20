@@ -1,7 +1,7 @@
-[09:42:55] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[09:42:57] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[13:26:38] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[13:26:38] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[09:42:58] [main/INFO]: Loading 97 mods:
+[13:26:38] [main/INFO]: Loading 97 mods:
 	- advancednetherite 2.1.6-1.21
 	- architectury 13.0.8
 	- artifacts 12.0.6
@@ -115,103 +115,93 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[09:42:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[09:42:58] [main/INFO]: Compatibility level set to JAVA_21
-[09:42:59] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:42:59] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:42:59] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[09:42:59] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[09:42:59] [main/INFO]: Applying Nashorn fix
-[09:43:01] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[09:43:01] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[09:43:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[09:43:06] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[09:43:06] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[09:43:06] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[09:43:07] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[09:43:07] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[09:43:11] [main/INFO]: Vanilla bootstrap took 8903 milliseconds
-[09:43:12] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[09:43:12] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[09:43:12] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[09:43:12] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[09:43:12] [main/ERROR]: No data fixer registered for artifacts:mimic
-[09:43:12] [main/INFO]: Loading Collective version 7.91.
-[09:43:12] [main/INFO]: fabric loader environment detected
-[09:43:12] [main/INFO]: YAaargh!
-[09:43:12] [main/INFO]: Constructing common components for easymagic:main
-[09:43:12] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[09:43:12] [main/INFO]: ExpandAbility here, who dis?
-[09:43:13] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[09:43:13] [main/INFO]: [Mebahel's Zombie Horde] Registering zombie horde spawning for mebahel-zombie-horde.
-[09:43:13] [main/INFO]: [Mebahel's Zombie Horde] Initialization complete.
-[09:43:13] [main/INFO]: Loading Noisium.
-[09:43:13] [main/INFO]: Constructing common components for puzzleslib:main
-[09:43:13] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[09:43:13] [main/ERROR]: No data fixer registered for 
-[09:43:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[09:43:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[09:43:14] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[09:43:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[09:43:14] [main/INFO]: Initializing Undead Nights Mod
-[09:43:14] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
-[09:43:14] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
-[09:43:14] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
-[09:43:14] [main/INFO]: Registering Sounds for undeadnights
-[09:43:14] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[09:43:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:43:16] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[09:43:16] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[09:43:16] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[09:43:16] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[09:43:16] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[09:43:17] [main/INFO]: Loaded 1522 recipes
-[09:43:17] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
-[09:43:17] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
-[09:43:17] [main/INFO]: Loaded 1647 advancements
-[09:43:17] [main/INFO]: Reloading grave shape (server)
-[09:43:17] [main/INFO]: Grave model and shape reload successful (server)
-[09:43:17] [main/INFO]: Reloading YIGD graveyard data (server)
-[09:43:17] [main/INFO]: Graveyard data successfully reloaded (server)
-[09:43:17] [main/INFO]: Reloading YIGD grave area overrides (server)
-[09:43:17] [main/INFO]: Grave area overrides successfully reloaded (server)
-[09:43:17] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
-[09:43:17] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 13.43 ms
-[09:43:17] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[09:43:17] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[09:43:17] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[09:43:17] [Server thread/INFO]: Starting minecraft server version 1.21
-[09:43:17] [Server thread/INFO]: Loading properties
-[09:43:17] [Server thread/INFO]: Default game type: SURVIVAL
-[09:43:17] [Server thread/INFO]: Generating keypair
-[09:43:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:43:17] [Server thread/INFO]: Using epoll channel type
-[09:43:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:43:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:43:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:43:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:43:17] [Server thread/INFO]: Preparing level "world"
-[09:43:18] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[09:43:18] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Loaded difficulty level for world minecraft:overworld: 2
-[09:43:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:43:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:43:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:43:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:43:19] [Server thread/INFO]: Time elapsed: 1141 ms
-[09:43:19] [Server thread/INFO]: Done (1.511s)! For help, type "help"
-[09:43:19] [Server thread/WARN]: Dedicated server took 27.16 seconds to load
-[09:43:25] [Server thread/INFO]: Franceskko[/100.96.204.97:53127] logged in with entity id 10 at (-1885.1884146470077, 119.0, -3092.390899691108)
-[09:43:25] [Server thread/INFO]: Loading config from file...
-[09:43:25] [Server thread/INFO]: Franceskko joined the game
-[09:43:26] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
-[09:43:50] [Server thread/INFO]: [Franceskko: Set own game mode to Creative Mode]
-[09:58:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1854, y=137, z=-3055}
-[10:13:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1815, y=140, z=-3044}
-[10:28:25] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1904, y=130, z=-3050}
-[10:30:39] [Server thread/WARN]: Franceskko moved too quickly! -7.431313309453344,0.0,7.0512086669464225
-[10:39:52] [Server thread/INFO]: Franceskko has made the advancement [We Need to Go Deeper]
-[10:44:22] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1920, y=119, z=-3130}
-[10:48:55] [Server thread/INFO]: [Franceskko: Set own game mode to Survival Mode]
-[10:55:05] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
-[10:55:05] [Server thread/INFO]: No modded crossbow items have been found!
-[10:59:22] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-1825, y=117, z=-3166}
+[13:26:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:26:38] [main/INFO]: Compatibility level set to JAVA_21
+[13:26:39] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:26:39] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:26:39] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[13:26:39] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[13:26:39] [main/INFO]: Applying Nashorn fix
+[13:26:40] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[13:26:40] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[13:26:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[13:26:44] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:26:44] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13:26:44] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[13:26:49] [main/INFO]: Vanilla bootstrap took 8052 milliseconds
+[13:26:49] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[13:26:49] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[13:26:50] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[13:26:50] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[13:26:50] [main/ERROR]: No data fixer registered for artifacts:mimic
+[13:26:50] [main/INFO]: Loading Collective version 7.91.
+[13:26:50] [main/INFO]: fabric loader environment detected
+[13:26:50] [main/INFO]: YAaargh!
+[13:26:50] [main/INFO]: Constructing common components for easymagic:main
+[13:26:50] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[13:26:50] [main/INFO]: ExpandAbility here, who dis?
+[13:26:50] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[13:26:50] [main/INFO]: [Mebahel's Zombie Horde] Registering zombie horde spawning for mebahel-zombie-horde.
+[13:26:50] [main/INFO]: [Mebahel's Zombie Horde] Initialization complete.
+[13:26:50] [main/INFO]: Loading Noisium.
+[13:26:50] [main/INFO]: Constructing common components for puzzleslib:main
+[13:26:50] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[13:26:50] [main/ERROR]: No data fixer registered for 
+[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[13:26:51] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[13:26:51] [main/INFO]: Initializing Undead Nights Mod
+[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
+[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
+[13:26:51] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
+[13:26:51] [main/INFO]: Registering Sounds for undeadnights
+[13:26:51] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[13:26:51] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[13:26:53] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[13:26:54] [main/INFO]: Loaded 1522 recipes
+[13:26:54] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[13:26:54] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
+[13:26:54] [main/INFO]: Loaded 1647 advancements
+[13:26:54] [main/INFO]: Reloading grave shape (server)
+[13:26:54] [main/INFO]: Grave model and shape reload successful (server)
+[13:26:54] [main/INFO]: Reloading YIGD graveyard data (server)
+[13:26:54] [main/INFO]: Graveyard data successfully reloaded (server)
+[13:26:54] [main/INFO]: Reloading YIGD grave area overrides (server)
+[13:26:54] [main/INFO]: Grave area overrides successfully reloaded (server)
+[13:26:54] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:crops/nether_wart, c:crops/wheat
+[13:26:54] [main/INFO]: Applied 119 biome modifications to 63 of 64 new biomes in 54.45 ms
+[13:26:54] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[13:26:54] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[13:26:54] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[13:26:54] [Server thread/INFO]: Starting minecraft server version 1.21
+[13:26:54] [Server thread/INFO]: Loading properties
+[13:26:54] [Server thread/INFO]: Default game type: SURVIVAL
+[13:26:54] [Server thread/INFO]: Generating keypair
+[13:26:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:26:54] [Server thread/INFO]: Using epoll channel type
+[13:26:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:26:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:26:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:26:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:26:55] [Server thread/INFO]: Preparing level "world"
+[13:26:55] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[13:26:55] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Loaded difficulty level for world minecraft:overworld: 2
+[13:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:26:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:26:56] [Server thread/INFO]: Time elapsed: 1318 ms
+[13:26:56] [Server thread/INFO]: Done (1.777s)! For help, type "help"
+[13:26:56] [Server thread/WARN]: Dedicated server took 20.272 seconds to load
+[13:27:02] [Server thread/INFO]: Franceskko[/100.96.204.97:53579] logged in with entity id 10 at (-1890.27140552641, 119.0, -3087.983221187169)
+[13:27:02] [Server thread/INFO]: Loading config from file...
+[13:27:02] [Server thread/INFO]: Franceskko joined the game
+[13:27:03] [Server thread/INFO]: Priority overwritten for player Franceskko. Claiming: GRAVE / Robbing: INVENTORY
+[13:35:23] [Server thread/INFO]: Franceskko has made the advancement [Hidden in the Depths]
