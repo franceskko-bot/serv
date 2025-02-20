@@ -3406,6 +3406,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/orange_sharestone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3478,6 +3484,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/end_stone_waystone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
@@ -3511,6 +3523,12 @@
   "waystones:recipes/decorations/deepslate_waystone": {
     "criteria": {
       "has_warp_stone": "2025-02-20 18:02:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
     },
     "done": true
   },
@@ -3652,6 +3670,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-02-20 18:33:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff_stairs": {
     "criteria": {
       "has_polished_tuff": "2025-02-20 17:51:21 +0000"
@@ -3691,6 +3715,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-02-20 18:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-02-20 18:33:41 +0000"
     },
     "done": true
   },
