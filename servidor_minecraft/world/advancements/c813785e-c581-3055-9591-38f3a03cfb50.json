@@ -703,15 +703,19 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-02-18 02:11:36 +0000",
+      "minecraft:blaze": "2025-02-20 14:10:59 +0000",
       "minecraft:skeleton": "2025-02-17 01:03:14 +0000",
       "minecraft:phantom": "2025-02-18 02:06:15 +0000",
       "minecraft:witch": "2025-02-18 02:46:47 +0000",
+      "minecraft:wither_skeleton": "2025-02-20 14:14:22 +0000",
       "minecraft:husk": "2025-02-18 02:18:12 +0000",
+      "minecraft:hoglin": "2025-02-20 14:14:19 +0000",
       "minecraft:breeze": "2025-02-17 02:05:36 +0000",
       "minecraft:vindicator": "2025-02-18 02:47:55 +0000",
       "minecraft:enderman": "2025-02-17 01:44:52 +0000",
       "minecraft:silverfish": "2025-02-17 02:16:59 +0000",
       "minecraft:stray": "2025-02-17 02:05:15 +0000",
+      "minecraft:magma_cube": "2025-02-20 14:12:16 +0000",
       "minecraft:spider": "2025-02-17 01:26:28 +0000",
       "minecraft:zombie": "2025-02-17 01:25:42 +0000",
       "minecraft:creeper": "2025-02-18 02:40:40 +0000",
@@ -2861,6 +2865,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-02-20 14:13:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2025-02-20 13:48:14 +0000"
@@ -2915,6 +2925,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2025-02-20 14:11:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-02-20 14:13:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-20 13:49:23 +0000"
@@ -2930,6 +2952,12 @@
   "minecraft:recipes/decorations/blackstone_wall": {
     "criteria": {
       "has_blackstone": "2025-02-20 13:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-02-20 14:11:15 +0000"
     },
     "done": true
   },
@@ -3131,6 +3159,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-02-20 14:13:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-02-20 13:48:14 +0000"
@@ -3140,6 +3174,12 @@
   "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
     "criteria": {
       "has_spire_armor_trim_smithing_template": "2025-02-20 13:51:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-02-20 14:13:41 +0000"
     },
     "done": true
   },
@@ -3197,6 +3237,18 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/blaze": {
+    "criteria": {
+      "has_blaze_rod": "2025-02-20 14:11:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-02-20 14:11:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-02-20 13:30:27 +0000"
@@ -3224,6 +3276,12 @@
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-02-20 13:29:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-02-20 14:11:15 +0000"
     },
     "done": true
   },

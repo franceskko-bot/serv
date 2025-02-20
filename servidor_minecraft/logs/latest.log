@@ -259,3 +259,12 @@
 [14:03:45] [Worker-Main-3/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
 [14:04:06] [Server thread/WARN]: UUID of added entity already exists: class_1642['Zombie'/21043, l='ServerLevel[world]', x=-2488.50, y=67.00, z=-3608.50]
 [14:05:40] [Server thread/INFO]: [Franceskko: Teleported Franceskko to -2768.000000, 72.000000, -3513.000000]
+[14:10:59] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24007, l='ServerLevel[world]', x=-2891.34, y=-8.16, z=-3701.69] died: Foundry Guardian was shot by Franceskko
+[14:11:14] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24160, l='ServerLevel[world]', x=-2885.70, y=-9.00, z=-3700.60] died: Foundry Guardian was slain by Franceskko
+[14:11:15] [Server thread/INFO]: Franceskko has made the advancement [Into Fire]
+[14:11:34] [Server thread/INFO]: Named entity class_1545['Foundry Guardian'/24233, l='ServerLevel[world]', x=-2898.79, y=-9.81, z=-3701.36] died: Foundry Guardian was shot by Franceskko
+[14:13:41] [Server thread/INFO]: Franceskko has made the advancement [Who is Cutting Onions?]
+[14:14:22] [Server thread/INFO]: Named entity class_1639['Forge Sentry'/25405, l='ServerLevel[world]', x=-2950.00, y=-16.00, z=-3746.08] died: Forge Sentry was slain by Franceskko
+[14:15:32] [Server thread/INFO]: [STDOUT]: [Mebahel's Zombie Horde] Zombie horde spawning for at : class_2338{x=-2843, y=-8, z=-3706}
+[14:16:21] [Server thread/INFO]: Franceskko lost connection: Disconnected
+[14:16:21] [Server thread/INFO]: Franceskko left the game
